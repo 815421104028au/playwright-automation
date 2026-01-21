@@ -10,6 +10,9 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
+    launchOptions: {
+      args: ['--disable-http2'],
+    },
     headless: true,                // Run visible browser so video works
     screenshot: 'on',               // ✅ Take screenshot for **all actions**
     video: 'on',                     // ✅ Record video for the whole test
@@ -37,13 +40,17 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
     {
-      name: 'Firefox Tests',
+      name: 'Firefox',
       testDir: './tests',
       use: { ...devices['Desktop Firefox'] },
     },
     {
       name: 'WebKit',
       use: { ...devices['Desktop Safari'] },
+    },
+     {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
     },
   ],
 });
