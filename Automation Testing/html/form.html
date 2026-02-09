@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Confirm Before Submit</title>
+  <script>
+    function confirmSubmit() {
+      return confirm("Are you sure you want to submit this form?");
+    }
+  </script>
+</head>
+<body>
+
+<form action="result.html" method="get" onsubmit="return confirmSubmit();">
+  <input type="text" name="q" placeholder="Search">
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

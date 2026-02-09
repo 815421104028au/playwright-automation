@@ -1,0 +1,2051 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Pune 411005 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Pune 411005
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]: Redmi phone
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DRedmi%2Bphone%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "0 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "0"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - link "Fresh" [ref=e133] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - link "MX Player" [ref=e137] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e138]:
+            - link "Sell" [ref=e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e141]:
+            - link "Bestsellers" [ref=e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e144]:
+            - link "Today's Deals" [ref=e146] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e147]:
+            - link "Mobiles" [ref=e149] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e150]:
+            - link "Customer Service" [ref=e152] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e153]:
+            - link "New Releases" [ref=e155] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Prime" [ref=e158] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e159] [cursor=pointer]
+          - listitem [ref=e160]:
+            - link "Fashion" [ref=e162] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e163]:
+            - link "Electronics" [ref=e165] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e166]:
+            - link "Amazon Pay" [ref=e168] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e169]:
+            - link "Home & Kitchen" [ref=e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e172]:
+            - link "Computers" [ref=e174] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e175]:
+            - link "Books" [ref=e177] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e178]:
+            - link "Gift Cards" [ref=e180] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e181]:
+            - link "Beauty & Personal Care" [ref=e183] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e184]:
+            - link "Toys & Games" [ref=e186] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e187]:
+            - link "Car & Motorbike" [ref=e189] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e190]:
+            - link "Home Improvement" [ref=e192] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e193]:
+            - link "Grocery & Gourmet Foods" [ref=e195] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e196]:
+            - link "Sports, Fitness & Outdoors" [ref=e198] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e199]:
+            - link "Health, Household & Personal Care" [ref=e201] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e202]:
+            - link "Custom Products" [ref=e204] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e205]:
+            - link "Video Games" [ref=e207] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e208]:
+            - link "Baby" [ref=e210] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e211]:
+            - link "Pet Supplies" [ref=e213] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e214]:
+            - link "AmazonBasics" [ref=e216] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e217]:
+            - link "Audible" [ref=e219] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e220]:
+            - link "Subscribe & Save" [ref=e222] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e223]:
+            - link "Kindle eBooks" [ref=e225] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e226]:
+            - link "Flights" [ref=e228] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - dialog [ref=e231]
+  - generic [ref=e233]:
+    - 'heading "1-16 of over 40,000 results for \"Redmi phone\" Sort by: Featured" [level=1] [ref=e236]':
+      - generic [ref=e237]:
+        - heading "1-16 of over 40,000 results for \"Redmi phone\"" [level=2] [ref=e242]
+        - generic [ref=e247]:
+          - generic [ref=e248]: "Sort by:"
+          - combobox "Sort by:" [ref=e249]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e252] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e254]:
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - generic [ref=e260]:
+            - generic [ref=e263]:
+              - heading "Results" [level=2] [ref=e264]
+              - generic [ref=e265]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e266]:
+                  - generic [ref=e272]:
+                    - link [ref=e278] [cursor=pointer]:
+                      - /url: /Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-1
+                      - img [ref=e280]
+                    - generic [ref=e283]:
+                      - link "Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging | Charger in The Box" [ref=e285] [cursor=pointer]:
+                        - /url: /Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-1
+                        - heading "Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging | Charger in The Box" [level=2] [ref=e286]
+                      - generic [ref=e287]:
+                        - generic [ref=e288]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e290] [cursor=pointer]:
+                            - generic [ref=e292]: 4.0 out of 5 stars
+                          - link "11,973 ratings" [ref=e294] [cursor=pointer]:
+                            - /url: /Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-1#customerReviews
+                            - text: (11.9K)
+                        - generic [ref=e295]: 5K+ bought in past month
+                      - generic [ref=e298]:
+                        - generic [ref=e299]:
+                          - generic [ref=e301]:
+                            - generic [ref=e302]: Price, product page
+                            - 'link "₹9,999 M.R.P: ₹11,999 M.R.P: ₹11,999" [ref=e303] [cursor=pointer]':
+                              - /url: /Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-1
+                              - generic [ref=e304]:
+                                - generic [ref=e305]: ₹9,999
+                                - generic [ref=e306]: ₹9,999
+                              - generic [ref=e307]: "M.R.P: ₹11,999"
+                              - generic [ref=e308]:
+                                - text: "M.R.P:"
+                                - generic [ref=e309]:
+                                  - generic [ref=e310]: ₹11,999
+                                  - text: ₹11,999
+                            - text: (17% off)
+                          - generic [ref=e314]:
+                            - generic [ref=e315]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e316]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e323]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e341] [cursor=pointer]
+                        - group "colours available" [ref=e343]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e345] [cursor=pointer]:
+                            - /url: /Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=cs_sr_dp?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-1
+                - listitem [ref=e348]:
+                  - generic [ref=e354]:
+                    - link [ref=e360] [cursor=pointer]:
+                      - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-2
+                      - img [ref=e362]
+                    - generic [ref=e365]:
+                      - link "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [ref=e367] [cursor=pointer]:
+                        - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-2
+                        - heading "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [level=2] [ref=e368]
+                      - generic [ref=e369]:
+                        - generic [ref=e370]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e372] [cursor=pointer]:
+                            - generic [ref=e374]: 4.1 out of 5 stars
+                          - link "5,381 ratings" [ref=e376] [cursor=pointer]:
+                            - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-2#customerReviews
+                            - text: (5.3K)
+                        - generic [ref=e377]: 5K+ bought in past month
+                      - generic [ref=e380]:
+                        - generic "Currently unavailable." [ref=e384]
+                        - link "See options" [ref=e390] [cursor=pointer]:
+                          - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_2_so_CELLULAR_PHONE?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-2
+                - listitem [ref=e393]:
+                  - generic [ref=e399]:
+                    - link [ref=e405] [cursor=pointer]:
+                      - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFSHJ6Z/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                      - img [ref=e407]
+                    - generic [ref=e410]:
+                      - link "Redmi 15 5G Midnight Black 8GB + 256GB | Segment's Largest 7000mAhA Battery | Segment's Largest Display 17.53cm(6.9) Up to 144Hz | Snapdragon 6s Gen 3 | 18W Reverse Charging | 50MP AI Dual Camera" [ref=e412] [cursor=pointer]:
+                        - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFSHJ6Z/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                        - heading "Redmi 15 5G Midnight Black 8GB + 256GB | Segment's Largest 7000mAhA Battery | Segment's Largest Display 17.53cm(6.9) Up to 144Hz | Snapdragon 6s Gen 3 | 18W Reverse Charging | 50MP AI Dual Camera" [level=2] [ref=e413]
+                      - generic [ref=e414]:
+                        - generic [ref=e415]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e417] [cursor=pointer]:
+                            - generic [ref=e419]: 4.1 out of 5 stars
+                          - link "1,307 ratings" [ref=e421] [cursor=pointer]:
+                            - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFSHJ6Z/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e422]: 1K+ bought in past month
+                      - generic [ref=e425]:
+                        - generic [ref=e426]:
+                          - generic [ref=e428]:
+                            - generic [ref=e429]: Price, product page
+                            - 'link "₹18,499 M.R.P: ₹19,999 M.R.P: ₹19,999" [ref=e430] [cursor=pointer]':
+                              - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFSHJ6Z/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                              - generic [ref=e431]:
+                                - generic [ref=e432]: ₹18,499
+                                - generic [ref=e433]: ₹18,499
+                              - generic [ref=e434]: "M.R.P: ₹19,999"
+                              - generic [ref=e435]:
+                                - text: "M.R.P:"
+                                - generic [ref=e436]:
+                                  - generic [ref=e437]: ₹19,999
+                                  - text: ₹19,999
+                            - text: (8% off)
+                          - generic [ref=e441]:
+                            - generic [ref=e442]: Save extra with No Cost EMI
+                            - generic [ref=e443]: Save extra with No Cost EMI
+                        - generic [ref=e450]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e468] [cursor=pointer]
+                        - group "colours available" [ref=e470]:
+                          - list [ref=e471]:
+                            - generic [ref=e472]:
+                              - listitem:
+                                - link "Midnight Black":
+                                  - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFSHJ6Z/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                            - generic [ref=e475]:
+                              - listitem:
+                                - link "Frosted White":
+                                  - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFVBSF4/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                            - generic [ref=e478]:
+                              - listitem:
+                                - link "Sandy Purple":
+                                  - /url: /Redmi-15-Midnight-Segments-Snapdragon/dp/B0FJFRYXFK/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-3
+                - listitem [ref=e483]:
+                  - generic [ref=e489]:
+                    - link [ref=e495] [cursor=pointer]:
+                      - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P5BPN3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                      - img [ref=e497]
+                    - generic [ref=e500]:
+                      - link "Redmi A5 Jaisalmer Gold (4GB RAM 128GB Storage) | Royale Design | Segment's Largest 17.47cm(6.88) and Smoothest 120Hz Display | 5200mAh Large Battery | Expandable Storage up to 2TB" [ref=e502] [cursor=pointer]:
+                        - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P5BPN3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                        - heading "Redmi A5 Jaisalmer Gold (4GB RAM 128GB Storage) | Royale Design | Segment's Largest 17.47cm(6.88) and Smoothest 120Hz Display | 5200mAh Large Battery | Expandable Storage up to 2TB" [level=2] [ref=e503]
+                      - generic [ref=e504]:
+                        - generic [ref=e505]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e507] [cursor=pointer]:
+                            - generic [ref=e509]: 4.0 out of 5 stars
+                          - link "653 ratings" [ref=e511] [cursor=pointer]:
+                            - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P5BPN3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4#customerReviews
+                            - text: (653)
+                        - generic [ref=e512]: 400+ bought in past month
+                      - generic [ref=e515]:
+                        - generic [ref=e516]:
+                          - generic [ref=e518]:
+                            - generic [ref=e519]: Price, product page
+                            - 'link "₹8,999 M.R.P: ₹9,999 M.R.P: ₹9,999" [ref=e520] [cursor=pointer]':
+                              - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P5BPN3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                              - generic [ref=e521]:
+                                - generic [ref=e522]: ₹8,999
+                                - generic [ref=e523]: ₹8,999
+                              - generic [ref=e524]: "M.R.P: ₹9,999"
+                              - generic [ref=e525]:
+                                - text: "M.R.P:"
+                                - generic [ref=e526]:
+                                  - generic [ref=e527]: ₹9,999
+                                  - text: ₹9,999
+                            - text: (10% off)
+                          - generic [ref=e531]:
+                            - generic [ref=e532]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e533]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e540]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e558] [cursor=pointer]
+                        - group "colours available" [ref=e560]:
+                          - list [ref=e561]:
+                            - generic [ref=e562]:
+                              - listitem:
+                                - link "Jaisalmer Gold":
+                                  - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P5BPN3/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                            - generic [ref=e565]:
+                              - listitem:
+                                - link "Just Black":
+                                  - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P58715/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                            - generic [ref=e568]:
+                              - listitem:
+                                - link "Pondicherry Blue":
+                                  - /url: /Redmi-Jaisalmer-Smoothest-Protection-expandable/dp/B0F3P4D4R3/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-4
+                - listitem [ref=e573]:
+                  - generic [ref=e579]:
+                    - link [ref=e585] [cursor=pointer]:
+                      - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B39291/ref=sr_1_5?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                      - img [ref=e587]
+                    - generic [ref=e590]:
+                      - link "REDMI 15C 5G Moonlight Blue 4GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest Display 17.53cm Up to 120Hz | MediaTek Dimensity 6300 | 33W Fast Charging | 50MP AI Dual Camera" [ref=e592] [cursor=pointer]:
+                        - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B39291/ref=sr_1_5?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                        - heading "REDMI 15C 5G Moonlight Blue 4GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest Display 17.53cm Up to 120Hz | MediaTek Dimensity 6300 | 33W Fast Charging | 50MP AI Dual Camera" [level=2] [ref=e593]
+                      - generic [ref=e594]:
+                        - generic [ref=e595]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e597] [cursor=pointer]:
+                            - generic [ref=e599]: 4.2 out of 5 stars
+                          - link "240 ratings" [ref=e601] [cursor=pointer]:
+                            - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B39291/ref=sr_1_5?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5#customerReviews
+                            - text: (240)
+                        - generic [ref=e602]: 200+ bought in past month
+                      - generic [ref=e605]:
+                        - generic [ref=e606]:
+                          - generic [ref=e608]:
+                            - generic [ref=e609]: Price, product page
+                            - 'link "₹12,499 M.R.P: ₹14,999 M.R.P: ₹14,999" [ref=e610] [cursor=pointer]':
+                              - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B39291/ref=sr_1_5?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                              - generic [ref=e611]:
+                                - generic [ref=e612]: ₹12,499
+                                - generic [ref=e613]: ₹12,499
+                              - generic [ref=e614]: "M.R.P: ₹14,999"
+                              - generic [ref=e615]:
+                                - text: "M.R.P:"
+                                - generic [ref=e616]:
+                                  - generic [ref=e617]: ₹14,999
+                                  - text: ₹14,999
+                            - text: (17% off)
+                          - generic [ref=e621]:
+                            - generic [ref=e622]: Save extra with No Cost EMI
+                            - generic [ref=e623]: Save extra with No Cost EMI
+                        - generic [ref=e630]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e648] [cursor=pointer]
+                        - group "colours available" [ref=e650]:
+                          - list [ref=e651]:
+                            - generic [ref=e652]:
+                              - listitem:
+                                - link "Moonlight Blue":
+                                  - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B39291/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                            - generic [ref=e655]:
+                              - listitem:
+                                - link "Dusk Purple":
+                                  - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B1S4YL/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                            - generic [ref=e658]:
+                              - listitem:
+                                - link "Midnight Black":
+                                  - /url: /15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B4JX1F/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-5
+                - listitem [ref=e663]:
+                  - generic [ref=e669]:
+                    - generic [ref=e671]:
+                      - generic "Amazon's Choice" [ref=e674]:
+                        - group "Amazon's Choice for \"Redmi phone\"" [ref=e677]:
+                          - generic [ref=e679]: Amazon's Choice
+                      - link [ref=e683] [cursor=pointer]:
+                        - /url: /Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-6
+                        - img [ref=e685]
+                    - generic [ref=e688]:
+                      - link "Redmi 13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [ref=e690] [cursor=pointer]:
+                        - /url: /Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-6
+                        - heading "Redmi 13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [level=2] [ref=e691]
+                      - generic [ref=e692]:
+                        - generic [ref=e693]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e695] [cursor=pointer]:
+                            - generic [ref=e697]: 4.1 out of 5 stars
+                          - link "4,859 ratings" [ref=e699] [cursor=pointer]:
+                            - /url: /Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-6#customerReviews
+                            - text: (4.8K)
+                        - generic [ref=e700]: 200+ bought in past month
+                      - generic [ref=e703]:
+                        - generic [ref=e704]:
+                          - generic [ref=e706]:
+                            - generic [ref=e707]: Price, product page
+                            - 'link "₹10,990 M.R.P: ₹13,990 M.R.P: ₹13,990" [ref=e708] [cursor=pointer]':
+                              - /url: /Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-6
+                              - generic [ref=e709]:
+                                - generic [ref=e710]: ₹10,990
+                                - generic [ref=e711]: ₹10,990
+                              - generic [ref=e712]: "M.R.P: ₹13,990"
+                              - generic [ref=e713]:
+                                - text: "M.R.P:"
+                                - generic [ref=e714]:
+                                  - generic [ref=e715]: ₹13,990
+                                  - text: ₹13,990
+                            - text: (21% off)
+                          - generic [ref=e719]:
+                            - generic [ref=e720]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e721]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e728]: FREE delivery Wed, 18 Feb
+                        - button "Add to cart" [ref=e746] [cursor=pointer]
+                - listitem [ref=e749]:
+                  - generic [ref=e755]:
+                    - link [ref=e761] [cursor=pointer]:
+                      - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-7
+                      - img [ref=e763]
+                    - generic [ref=e766]:
+                      - link "Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [ref=e768] [cursor=pointer]:
+                        - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-7
+                        - heading "Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [level=2] [ref=e769]
+                      - generic [ref=e770]:
+                        - generic [ref=e771]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e773] [cursor=pointer]:
+                            - generic [ref=e775]: 4.1 out of 5 stars
+                          - link "4,907 ratings" [ref=e777] [cursor=pointer]:
+                            - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-7#customerReviews
+                            - text: (4.9K)
+                        - generic [ref=e778]: 100+ bought in past month
+                      - generic [ref=e781]:
+                        - generic [ref=e782]:
+                          - generic [ref=e784]:
+                            - generic [ref=e785]: Price, product page
+                            - 'link "₹10,490 M.R.P: ₹13,999 M.R.P: ₹13,999" [ref=e786] [cursor=pointer]':
+                              - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-7
+                              - generic [ref=e787]:
+                                - generic [ref=e788]: ₹10,490
+                                - generic [ref=e789]: ₹10,490
+                              - generic [ref=e790]: "M.R.P: ₹13,999"
+                              - generic [ref=e791]:
+                                - text: "M.R.P:"
+                                - generic [ref=e792]:
+                                  - generic [ref=e793]: ₹13,999
+                                  - text: ₹13,999
+                            - text: (25% off)
+                          - generic [ref=e797]:
+                            - generic [ref=e798]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e799]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e806]: FREE delivery Wed, 18 Feb
+                        - button "Add to cart" [ref=e824] [cursor=pointer]
+                - listitem [ref=e827]:
+                  - generic [ref=e833]:
+                    - link [ref=e839] [cursor=pointer]:
+                      - /url: /Redmi-Midnight-Storage-Powerful-Processor/dp/B0D78VSVGS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-8
+                      - img [ref=e841]
+                    - generic [ref=e844]:
+                      - link "Redmi A3X Midnight Black 4GB RAM 128GB ROM" [ref=e846] [cursor=pointer]:
+                        - /url: /Redmi-Midnight-Storage-Powerful-Processor/dp/B0D78VSVGS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-8
+                        - heading "Redmi A3X Midnight Black 4GB RAM 128GB ROM" [level=2] [ref=e847]
+                      - generic [ref=e849]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e851] [cursor=pointer]:
+                          - generic [ref=e853]: 4.0 out of 5 stars
+                        - link "193 ratings" [ref=e855] [cursor=pointer]:
+                          - /url: /Redmi-Midnight-Storage-Powerful-Processor/dp/B0D78VSVGS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-8#customerReviews
+                          - text: (193)
+                      - generic [ref=e858]:
+                        - generic [ref=e859]:
+                          - generic [ref=e861]:
+                            - generic [ref=e862]: Price, product page
+                            - 'link "₹8,949 M.R.P: ₹10,999 M.R.P: ₹10,999" [ref=e863] [cursor=pointer]':
+                              - /url: /Redmi-Midnight-Storage-Powerful-Processor/dp/B0D78VSVGS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-8
+                              - generic [ref=e864]:
+                                - generic [ref=e865]: ₹8,949
+                                - generic [ref=e866]: ₹8,949
+                              - generic [ref=e867]: "M.R.P: ₹10,999"
+                              - generic [ref=e868]:
+                                - text: "M.R.P:"
+                                - generic [ref=e869]:
+                                  - generic [ref=e870]: ₹10,999
+                                  - text: ₹10,999
+                            - text: (19% off)
+                          - generic [ref=e874]:
+                            - generic [ref=e875]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e876]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e883]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e901] [cursor=pointer]
+                - listitem [ref=e904]:
+                  - generic [ref=e910]:
+                    - link [ref=e916] [cursor=pointer]:
+                      - /url: /Redmi-Note-14-Pro-5G/dp/B0FDVHBXBP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                      - img [ref=e918]
+                    - generic [ref=e921]:
+                      - link "Redmi Note 14 Pro 5G Champagne Gold 8GB RAM 128GB Storage|50 MP Sony Camera Setup|Corning Gorilla Glass Victus 2 | 1.5K 3D Curved AMOLED | Mediatek Dimensity 7300- Ultra |IP68 IP69" [ref=e923] [cursor=pointer]:
+                        - /url: /Redmi-Note-14-Pro-5G/dp/B0FDVHBXBP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                        - heading "Redmi Note 14 Pro 5G Champagne Gold 8GB RAM 128GB Storage|50 MP Sony Camera Setup|Corning Gorilla Glass Victus 2 | 1.5K 3D Curved AMOLED | Mediatek Dimensity 7300- Ultra |IP68 IP69" [level=2] [ref=e924]
+                      - generic [ref=e925]:
+                        - generic [ref=e926]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e928] [cursor=pointer]:
+                            - generic [ref=e930]: 4.1 out of 5 stars
+                          - link "762 ratings" [ref=e932] [cursor=pointer]:
+                            - /url: /Redmi-Note-14-Pro-5G/dp/B0FDVHBXBP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9#customerReviews
+                            - text: (762)
+                        - generic [ref=e933]: 100+ bought in past month
+                      - generic [ref=e936]:
+                        - generic [ref=e939]:
+                          - generic [ref=e940]: Price, product page
+                          - 'link "₹21,999 M.R.P: ₹28,999 M.R.P: ₹28,999" [ref=e941] [cursor=pointer]':
+                            - /url: /Redmi-Note-14-Pro-5G/dp/B0FDVHBXBP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                            - generic [ref=e942]:
+                              - generic [ref=e943]: ₹21,999
+                              - generic [ref=e944]: ₹21,999
+                            - generic [ref=e945]: "M.R.P: ₹28,999"
+                            - generic [ref=e946]:
+                              - text: "M.R.P:"
+                              - generic [ref=e947]:
+                                - generic [ref=e948]: ₹28,999
+                                - text: ₹28,999
+                          - text: (24% off)
+                        - generic [ref=e955]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e973] [cursor=pointer]
+                        - group "colours available" [ref=e975]:
+                          - list [ref=e976]:
+                            - generic [ref=e977]:
+                              - listitem:
+                                - link "Champagne Gold":
+                                  - /url: /Redmi-Note-14-Pro-5G/dp/B0FDVHBXBP/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                            - generic [ref=e980]:
+                              - listitem:
+                                - link "Phantom Purple":
+                                  - /url: /Redmi-Note-14-Pro-5G/dp/B0DQVH9QGQ/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                            - generic [ref=e983]:
+                              - listitem:
+                                - link "green":
+                                  - /url: /Redmi-Note-14-Pro-5G/dp/B0F5BW7JRP/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-9
+                - listitem [ref=e988]:
+                  - generic [ref=e994]:
+                    - link [ref=e1000] [cursor=pointer]:
+                      - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-10
+                      - img [ref=e1002]
+                    - generic [ref=e1005]:
+                      - link "Redmi 13C 5G (Startrail Silver, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [ref=e1007] [cursor=pointer]:
+                        - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-10
+                        - heading "Redmi 13C 5G (Startrail Silver, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display" [level=2] [ref=e1008]
+                      - generic [ref=e1009]:
+                        - generic [ref=e1010]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1012] [cursor=pointer]:
+                            - generic [ref=e1014]: 4.1 out of 5 stars
+                          - link "4,376 ratings" [ref=e1016] [cursor=pointer]:
+                            - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-10#customerReviews
+                            - text: (4.3K)
+                        - generic [ref=e1017]: 100+ bought in past month
+                      - generic [ref=e1020]:
+                        - generic [ref=e1021]:
+                          - generic [ref=e1023]:
+                            - generic [ref=e1024]: Price, product page
+                            - 'link "₹10,990 M.R.P: ₹13,999 M.R.P: ₹13,999" [ref=e1025] [cursor=pointer]':
+                              - /url: /Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-10
+                              - generic [ref=e1026]:
+                                - generic [ref=e1027]: ₹10,990
+                                - generic [ref=e1028]: ₹10,990
+                              - generic [ref=e1029]: "M.R.P: ₹13,999"
+                              - generic [ref=e1030]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1031]:
+                                  - generic [ref=e1032]: ₹13,999
+                                  - text: ₹13,999
+                            - text: (21% off)
+                          - generic [ref=e1036]:
+                            - generic [ref=e1037]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1038]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1045]: FREE delivery Tue, 17 Feb
+                        - button "Add to cart" [ref=e1063] [cursor=pointer]
+                - listitem [ref=e1066]:
+                  - generic [ref=e1072]:
+                    - link [ref=e1078] [cursor=pointer]:
+                      - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP59YVRG/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11
+                      - img [ref=e1080]
+                    - generic [ref=e1083]:
+                      - link "Lava Bold N1 Lite (Crystal Blue, 3 GB RAM, 64 GB Storage) | 6.75\" HD+ Display | 13MP AI Dual Rear Camera | 5000 mAh Battery | Secure Face Unlock | Fingerprint Reader | Charger & Phone-Cover in Box" [ref=e1085] [cursor=pointer]:
+                        - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP59YVRG/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11
+                        - heading "Lava Bold N1 Lite (Crystal Blue, 3 GB RAM, 64 GB Storage) | 6.75\" HD+ Display | 13MP AI Dual Rear Camera | 5000 mAh Battery | Secure Face Unlock | Fingerprint Reader | Charger & Phone-Cover in Box" [level=2] [ref=e1086]
+                      - generic [ref=e1087]:
+                        - generic [ref=e1088]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e1090] [cursor=pointer]:
+                            - generic [ref=e1092]: 4.0 out of 5 stars
+                          - link "81 ratings" [ref=e1094] [cursor=pointer]:
+                            - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP59YVRG/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11#customerReviews
+                            - text: (81)
+                        - generic [ref=e1095]: 500+ bought in past month
+                      - generic [ref=e1098]:
+                        - generic [ref=e1101]:
+                          - generic [ref=e1102]: Price, product page
+                          - link "₹6,999" [ref=e1103] [cursor=pointer]:
+                            - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP59YVRG/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11
+                            - generic [ref=e1104]:
+                              - generic [ref=e1105]: ₹6,999
+                              - generic [ref=e1106]: ₹6,999
+                        - generic [ref=e1113]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e1131] [cursor=pointer]
+                        - group "colours available" [ref=e1133]:
+                          - list [ref=e1134]:
+                            - generic [ref=e1135]:
+                              - listitem:
+                                - link "CRYSTAL BLUE":
+                                  - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP59YVRG/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11
+                            - generic [ref=e1138]:
+                              - listitem:
+                                - link "CRYSTAL GOLD":
+                                  - /url: /Lava-Crystal-Storage-Fingerprint-Phone-Cover/dp/B0FP5F44J8/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-11
+                - listitem [ref=e1143]:
+                  - generic [ref=e1149]:
+                    - link [ref=e1155] [cursor=pointer]:
+                      - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G5C89T/ref=sr_1_12?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                      - img [ref=e1157]
+                    - generic [ref=e1160]:
+                      - link "REDMI Note 15 5G (Black, 8GB RAM 128GB Storage) | 108MP OIS Camera | Snapdragon 6 Gen 3 | 17.2cm Tough Curved AMOLED Screen | Segment’s Slimmest Phone | 5520mAh Si/C Battery | 45W Fast Charging" [ref=e1162] [cursor=pointer]:
+                        - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G5C89T/ref=sr_1_12?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                        - heading "REDMI Note 15 5G (Black, 8GB RAM 128GB Storage) | 108MP OIS Camera | Snapdragon 6 Gen 3 | 17.2cm Tough Curved AMOLED Screen | Segment’s Slimmest Phone | 5520mAh Si/C Battery | 45W Fast Charging" [level=2] [ref=e1163]
+                      - generic [ref=e1164]:
+                        - generic [ref=e1165]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1167] [cursor=pointer]:
+                            - generic [ref=e1169]: 4.2 out of 5 stars
+                          - link "237 ratings" [ref=e1171] [cursor=pointer]:
+                            - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G5C89T/ref=sr_1_12?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12#customerReviews
+                            - text: (237)
+                        - generic [ref=e1172]: 500+ bought in past month
+                      - generic [ref=e1175]:
+                        - generic [ref=e1178]:
+                          - generic [ref=e1179]: Price, product page
+                          - 'link "₹22,999 M.R.P: ₹26,999 M.R.P: ₹26,999" [ref=e1180] [cursor=pointer]':
+                            - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G5C89T/ref=sr_1_12?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                            - generic [ref=e1181]:
+                              - generic [ref=e1182]: ₹22,999
+                              - generic [ref=e1183]: ₹22,999
+                            - generic [ref=e1184]: "M.R.P: ₹26,999"
+                            - generic [ref=e1185]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1186]:
+                                - generic [ref=e1187]: ₹26,999
+                                - text: ₹26,999
+                          - text: (15% off)
+                        - generic [ref=e1194]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e1212] [cursor=pointer]
+                        - group "colours available" [ref=e1214]:
+                          - list [ref=e1215]:
+                            - generic [ref=e1216]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G5C89T/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                            - generic [ref=e1219]:
+                              - listitem:
+                                - link "Glacier Blue":
+                                  - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G7LCJQ/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                            - generic [ref=e1222]:
+                              - listitem:
+                                - link "Mist Purple":
+                                  - /url: /Storage-Snapdragon-Segments-Slimmest-Charging/dp/B0G5G8ZV1G/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-12
+                - listitem [ref=e1227]:
+                  - generic [ref=e1233]:
+                    - link [ref=e1239] [cursor=pointer]:
+                      - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF24HNK2/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                      - img [ref=e1241]
+                    - generic [ref=e1244]:
+                      - link "REDMI Note 15 Pro+ 5G (Carbon Black, 12GB + 256GB) | 200MasterPixel OIS Camera | Snapdragon 7s Gen 4 | CrystalRes AMOLED | IP69/69K | 6500mAh Si/C Battery | 100W HyperCharge" [ref=e1246] [cursor=pointer]:
+                        - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF24HNK2/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                        - heading "REDMI Note 15 Pro+ 5G (Carbon Black, 12GB + 256GB) | 200MasterPixel OIS Camera | Snapdragon 7s Gen 4 | CrystalRes AMOLED | IP69/69K | 6500mAh Si/C Battery | 100W HyperCharge" [level=2] [ref=e1247]
+                      - generic [ref=e1249]:
+                        - text: "3.5"
+                        - button "3.5 out of 5 stars, rating details" [ref=e1251] [cursor=pointer]:
+                          - generic [ref=e1253]: 3.5 out of 5 stars
+                        - link "17 ratings" [ref=e1255] [cursor=pointer]:
+                          - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF24HNK2/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13#customerReviews
+                          - text: (17)
+                      - generic [ref=e1258]:
+                        - generic [ref=e1259]:
+                          - link "Limited time deal" [ref=e1261] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1264]: Limited time deal
+                          - generic [ref=e1266]:
+                            - generic [ref=e1267]: Price, product page
+                            - 'link "₹39,999 M.R.P: ₹41,999 M.R.P: ₹41,999" [ref=e1268] [cursor=pointer]':
+                              - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF24HNK2/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                              - generic [ref=e1269]:
+                                - generic [ref=e1270]: ₹39,999
+                                - generic [ref=e1271]: ₹39,999
+                              - generic [ref=e1272]: "M.R.P: ₹41,999"
+                              - generic [ref=e1273]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1274]:
+                                  - generic [ref=e1275]: ₹41,999
+                                  - text: ₹41,999
+                            - text: (5% off)
+                        - generic [ref=e1282]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e1300] [cursor=pointer]
+                        - group "colours available" [ref=e1302]:
+                          - list [ref=e1303]:
+                            - generic [ref=e1304]:
+                              - listitem:
+                                - link "Carbon Black":
+                                  - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF24HNK2/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                            - generic [ref=e1307]:
+                              - listitem:
+                                - link "Coffee Mocha":
+                                  - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF25NBWT/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                            - generic [ref=e1310]:
+                              - listitem:
+                                - link "Mirage Blue":
+                                  - /url: /200MasterPixel-Snapdragon-CrystalRes-6500mAh-Charging/dp/B0GF27G7WW/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-13
+                - listitem [ref=e1315]:
+                  - generic [ref=e1321]:
+                    - link [ref=e1327] [cursor=pointer]:
+                      - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G49VLFSG/ref=sr_1_14?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14
+                      - img [ref=e1329]
+                    - generic [ref=e1332]:
+                      - link "realme narzo 90 5G (Victory Gold,6GB+128GB) | 7000mAh Biggest Battery | 60W Fastest Charging | 50MP Front & Rear AI Cameras | 4000nits Brightest Display | AI Assist | IP69 Dust & Water Resistance" [ref=e1334] [cursor=pointer]:
+                        - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G49VLFSG/ref=sr_1_14?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14
+                        - heading "realme narzo 90 5G (Victory Gold,6GB+128GB) | 7000mAh Biggest Battery | 60W Fastest Charging | 50MP Front & Rear AI Cameras | 4000nits Brightest Display | AI Assist | IP69 Dust & Water Resistance" [level=2] [ref=e1335]
+                      - generic [ref=e1336]:
+                        - generic [ref=e1337]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1339] [cursor=pointer]:
+                            - generic [ref=e1341]: 4.2 out of 5 stars
+                          - link "235 ratings" [ref=e1343] [cursor=pointer]:
+                            - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G49VLFSG/ref=sr_1_14?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14#customerReviews
+                            - text: (235)
+                        - generic [ref=e1344]: 1K+ bought in past month
+                      - generic [ref=e1347]:
+                        - generic [ref=e1348]:
+                          - generic [ref=e1350]:
+                            - generic [ref=e1351]: Price, product page
+                            - 'link "₹16,999 M.R.P: ₹18,999 M.R.P: ₹18,999" [ref=e1352] [cursor=pointer]':
+                              - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G49VLFSG/ref=sr_1_14?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14
+                              - generic [ref=e1353]:
+                                - generic [ref=e1354]: ₹16,999
+                                - generic [ref=e1355]: ₹16,999
+                              - generic [ref=e1356]: "M.R.P: ₹18,999"
+                              - generic [ref=e1357]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1358]:
+                                  - generic [ref=e1359]: ₹18,999
+                                  - text: ₹18,999
+                            - text: (11% off)
+                          - generic [ref=e1362]:
+                            - generic [ref=e1363]: Save ₹1,000
+                            - text: with coupon
+                        - generic [ref=e1370]: FREE delivery Sat, 14 Feb
+                        - button "Add to cart" [ref=e1388] [cursor=pointer]
+                        - group "colours available" [ref=e1390]:
+                          - list [ref=e1391]:
+                            - generic [ref=e1392]:
+                              - listitem:
+                                - link "Victory Gold":
+                                  - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G49VLFSG/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14
+                            - generic [ref=e1395]:
+                              - listitem:
+                                - link "Carbon Black":
+                                  - /url: /realme-Charging-4000nits-Brightest-Resistance/dp/B0G4B8957C/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-14
+                - listitem [ref=e1400]:
+                  - generic [ref=e1406]:
+                    - link [ref=e1412] [cursor=pointer]:
+                      - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1NDMXVF/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                      - img [ref=e1414]
+                    - generic [ref=e1417]:
+                      - link "Redmi 13 5G Orchid Pink 8GB RAM 128GB ROM (Without Offer)" [ref=e1419] [cursor=pointer]:
+                        - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1NDMXVF/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                        - heading "Redmi 13 5G Orchid Pink 8GB RAM 128GB ROM (Without Offer)" [level=2] [ref=e1420]
+                      - generic [ref=e1421]:
+                        - generic [ref=e1422]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1424] [cursor=pointer]:
+                            - generic [ref=e1426]: 4.1 out of 5 stars
+                          - link "6,284 ratings" [ref=e1428] [cursor=pointer]:
+                            - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1NDMXVF/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15#customerReviews
+                            - text: (6.2K)
+                        - generic [ref=e1429]: 50+ bought in past month
+                      - generic [ref=e1432]:
+                        - generic [ref=e1435]:
+                          - generic [ref=e1436]: Price, product page
+                          - 'link "₹14,990 M.R.P: ₹19,990 M.R.P: ₹19,990" [ref=e1437] [cursor=pointer]':
+                            - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1NDMXVF/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                            - generic [ref=e1438]:
+                              - generic [ref=e1439]: ₹14,990
+                              - generic [ref=e1440]: ₹14,990
+                            - generic [ref=e1441]: "M.R.P: ₹19,990"
+                            - generic [ref=e1442]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1443]:
+                                - generic [ref=e1444]: ₹19,990
+                                - text: ₹19,990
+                          - text: (25% off)
+                        - generic [ref=e1451]: FREE delivery Sun, 15 Feb
+                        - button "Add to cart" [ref=e1469] [cursor=pointer]
+                        - group "colours available" [ref=e1471]:
+                          - list [ref=e1472]:
+                            - generic [ref=e1473]:
+                              - listitem:
+                                - link "Orchid Pink":
+                                  - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1NDMXVF/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                            - generic [ref=e1476]:
+                              - listitem:
+                                - link "Black Diamond":
+                                  - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F2MLQKQX/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                            - generic [ref=e1479]:
+                              - listitem:
+                                - link "Hawaiian Blue":
+                                  - /url: /Redmi-Orchid-128GB-Without-Offer/dp/B0F1N8B7Z4/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-15
+                - listitem [ref=e1484]:
+                  - generic [ref=e1490]:
+                    - link [ref=e1496] [cursor=pointer]:
+                      - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMLCX46/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+                      - img [ref=e1498]
+                    - generic [ref=e1501]:
+                      - link "OnePlus Nord CE5 | MediaTek Dimensity | Massive 7100mAh Battery | Powered by OnePlus AI | 128GB 8GB | Black Infinity" [ref=e1503] [cursor=pointer]:
+                        - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMLCX46/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+                        - heading "OnePlus Nord CE5 | MediaTek Dimensity | Massive 7100mAh Battery | Powered by OnePlus AI | 128GB 8GB | Black Infinity" [level=2] [ref=e1504]
+                      - generic [ref=e1505]:
+                        - generic [ref=e1506]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=e1508] [cursor=pointer]:
+                            - generic [ref=e1510]: 4.4 out of 5 stars
+                          - link "4,478 ratings" [ref=e1512] [cursor=pointer]:
+                            - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMLCX46/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16#customerReviews
+                            - text: (4.4K)
+                        - generic [ref=e1513]: 5K+ bought in past month
+                      - generic [ref=e1516]:
+                        - generic [ref=e1519]:
+                          - generic [ref=e1520]: Price, product page
+                          - 'link "₹24,999 M.R.P: ₹28,999 M.R.P: ₹28,999" [ref=e1521] [cursor=pointer]':
+                            - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMLCX46/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+                            - generic [ref=e1522]:
+                              - generic [ref=e1523]: ₹24,999
+                              - generic [ref=e1524]: ₹24,999
+                            - generic [ref=e1525]: "M.R.P: ₹28,999"
+                            - generic [ref=e1526]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1527]:
+                                - generic [ref=e1528]: ₹28,999
+                                - text: ₹28,999
+                          - text: (14% off)
+                        - generic [ref=e1535]: FREE delivery Tue, 17 Feb
+                        - button "Add to cart" [ref=e1553] [cursor=pointer]
+                        - group "colours available" [ref=e1555]:
+                          - list [ref=e1556]:
+                            - generic [ref=e1557]:
+                              - listitem:
+                                - link "Black Infinity":
+                                  - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMLCX46/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+                            - generic [ref=e1560]:
+                              - listitem:
+                                - link "Marble Mist":
+                                  - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FCMJT7R7/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+                            - generic [ref=e1563]:
+                              - listitem:
+                                - link "Nexus Blue":
+                                  - /url: /OnePlus-Massive-MediaTek-Dimensity-Infinity/dp/B0FC6XHHSV/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.rLASmCjHorurwq9ZaXahb2Dvr-Dhvr3ysLdG3e7AX3GYOqSxRW6DPn_-ec6yjC70uEexwlQyNVu3z-v5Mu8i9ue9vDETQxm7_4T_zqwctz3vi11_WjRnaQTBOpis0cn2YFPgLtSLDIHHXD-C4rS0QX4kciQh6dDma3NdcNr00IDTWWc5J2vTno-5Prh9JZ_ZxSZu7Y9_6J4_CK-GLFCq3VxV3pfRHz-rCFy0GOM4gY0.hSb56fsPvR-CrhYcZoLRzEqD0D1sPV83PvMJ603a4ms&dib_tag=se&keywords=Redmi+phone&qid=1770639620&sr=8-16
+          - generic [ref=e1573]:
+            - generic "Related searches in Redmi phone" [ref=e1574]:
+              - heading "Related searches" [level=2] [ref=e1577]
+            - list [ref=e1579]:
+              - generic [ref=e1580]:
+                - listitem [ref=e1581]:
+                  - link "realme phone" [ref=e1583] [cursor=pointer]:
+                    - /url: /s?k=realme+phone&ref=rsl_sug_0_0&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1588]: realme phone
+                - listitem [ref=e1589]:
+                  - link "redmi" [ref=e1591] [cursor=pointer]:
+                    - /url: /s?k=redmi&ref=rsl_sug_0_3&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1596]: redmi
+              - generic [ref=e1597]:
+                - listitem [ref=e1598]:
+                  - link "mi phone" [ref=e1600] [cursor=pointer]:
+                    - /url: /s?k=mi+phone&ref=rsl_sug_0_1&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1605]: mi phone
+                - listitem [ref=e1606]:
+                  - link "vivo phone" [ref=e1608] [cursor=pointer]:
+                    - /url: /s?k=vivo+phone&ref=rsl_sug_0_4&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1613]: vivo phone
+              - generic [ref=e1614]:
+                - listitem [ref=e1615]:
+                  - link "redmi phone 5g" [ref=e1617] [cursor=pointer]:
+                    - /url: /s?k=redmi+phone+5g&ref=rsl_sug_0_2&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1622]: redmi phone 5g
+                - listitem [ref=e1623]:
+                  - link "redmi 12 5g" [ref=e1625] [cursor=pointer]:
+                    - /url: /s?k=redmi+12+5g&ref=rsl_sug_0_5&pd_rd_w=adPRD&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=7yoAh&pd_rd_r=43ae46f5-fc6a-4cfc-99fe-a81cf9d6d7f6&qid=1770639620
+                    - generic [ref=e1630]: redmi 12 5g
+          - navigation "pagination" [ref=e1633]:
+            - list [ref=e1635]:
+              - listitem [ref=e1636]:
+                - button "Previous" [disabled] [ref=e1638]:
+                  - img [ref=e1639]
+                  - text: Previous
+              - listitem [ref=e1641]:
+                - button "Page 1" [ref=e1643]: "1"
+              - listitem [ref=e1644]:
+                - button "Go to page 2" [ref=e1646] [cursor=pointer]: "2"
+              - listitem [ref=e1647]:
+                - button "Go to page 3" [ref=e1649] [cursor=pointer]: "3"
+              - button [disabled] [ref=e1650]:
+                - img [ref=e1651]: ...
+              - button "20" [disabled] [ref=e1653]
+              - listitem [ref=e1654]:
+                - button "Go to next page, page 2" [ref=e1656] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e1657]
+          - generic [ref=e1661]:
+            - separator [ref=e1662]
+            - generic [ref=e1663]:
+              - heading "Brands related to your search" [ref=e1664]
+              - button "Leave feedback on Sponsored ad" [ref=e1669] [cursor=pointer]: Sponsored
+              - generic [ref=e1673]:
+                - generic [ref=e1675]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                      - link "Xiaomi Phones" [ref=e1676] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                        - img "Xiaomi Phones" [ref=e1677]
+                      - generic [ref=e1679]:
+                        - generic [ref=e1680]:
+                          - link [ref=e1681] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                          - link "Xiaomi Phones" [ref=e1682] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                            - img "Xiaomi Phones" [ref=e1684]
+                        - generic [ref=e1685]:
+                          - link [ref=e1686] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                          - link "Redmi Note 15 Pro Series | On Sale Now" [ref=e1687] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JLZ7cfLRfLvlQMuZDsJOfBUAAAGcQlh56AoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDTRMfb/clv1c_ek-wBPHTLcbWrnMRtu5T6FwLsE0LeMRcZ1odNvP_l0oSacmu6ViV0lt3wAF5Ho9_pZZ_bYZJtt-Hu1hRVJ8blq8qgFkxRGptH69JBCNtzY4u6pX-P74L4dSSoHt1lmrhd5NXYa8OEO_t8eDi0wVRo5zSrsm8l1T--gQoRyfKzwMVXSdFztXwX9q9uhmxq6Pc_XTuRQ-HVjfoFWL7kVvqwlr2WI5rFB7moIw32G2oHW_sdPdVJJtxoYE00LlX8pbZw_9_LItQN2IqNf8DX1Yu3LW3sR8xo6HxZRJCGhX4CSIPu2oy4Re1qnj3OfJdGIQuxChAQIm3ACzyTycN08zq0DpeAvid-A9urkbE0eiJQtaRIL3Yq01bdPl-UTAoVHB2-Y5w-pUVK5WU8SkP9Tx6pya-7j9Lii7XgTi8ahRn_RDfHGwGIhvo0hg0Me_tHmf0B9CBgpFFijkJgvepEOt7psA-qyNKK-Ct9rzD_6SVT59N4Sc0GPos0ux8gMlzdIP0IP9E_CPR9XTKMrVwbAYDcnndWQb94RLSpB18XnPQ9OuI6g1c4VJoIRjKRzVviyJNtbyaUpu-nEWhVdYR4ws2G-m5FRMkCoNgBgk8hmp9_EEE1z4Hqi4dOU9tXrVWKMXlCWDD1mpDAOL_iKh8Qpw9cyXbT5RCBOodByGy8GBcairzQ0qH6jetWyrKPDDzJgTL-iP39X8-Cn8gr3QPU00VBoKAmP38QyhFjiuOVGMkknFeIqk8xq5nIlJ_F_lpHlDdpgkZswGxpWoHZMRxUYJQ7aY07FaoNn3Sx_bpckkzCyWWdANyeh8xP_Se3dNm1QN1TTxGfjeOnlsX6TWPHlHqQ--FnAVIc9FV2dHyH9CBkYlWkfNDtJq0l48eQ7XtezRSD4_AZy-jJ8TD3N6nc_uCikNNmrL0h-IRf6jfaMkTV_CyXhh3ArZTsZkKpYQergH8ahiutvVppHGtWVZXKh9bB2k2tp03xnW7jy1xiQud1tfoIE5DYBwMLEhmLsQ0aeThlAo9NaZQa0ZsbIZEIya64NqA5YMEYxvG9doZHMud-OADkSjaemw9Xogrgfq9QEw2RL-ZIqlMQVDfpNGIIaTmeOgMj9N7kgvQyRug9SDZOFDxUDSxvhlgIvDa2n-i8ZB8AGGknlxehd4KGxbLE_8rgAU5xbW-ApCpMO3yy02cH6vPFDlUyQ9-mfvd6XcWCSIYecu1bkaxquD8g62SCkpdTVIxaQIxfEXibPGuw4znSBnzPcm79JbveAZ4Dj6-ukFSJZSncZjYPLypiCLBDhoAjqEhsd8UBz88W7W6kgqIzTqGGMNxIxrhkuMFXvzBxHNkgCNKju-cF3uKUTpHosgayhgSkVauHoW0IaUGdwu_N2DAaBa0igcBtHFF2GRv4qFo8g8FcC6Fh0tSXfRpuZe5uHYxu_5hE7BZ9vECGzMkM_ILs3cEOEiwCzuzyqMKjjw6SBBy9kP8Sj58-Gpmduuyey7NKarZND5a5ZlLCjqA6fyqDjY2FsXdbOl0FfKrhMtDQhncs_-a8RT6cNTztoRWwhlUJs0Myskq-973r6h0Xjqjg0-BFdqSt8VLkE_x6PGsbdAbqLnZG-Ykf5SCxq24y69AXSfU3NqiKqVw6rwyzGmNgbtXdc0CrMJ_Pcn04pES5fhRl9R0OPpBxAKq_SqpZckWy6U8JlZT1LuPLBQ8pw/https://www.amazon.in/stores/page/0055ECB2-ABA2-4EA8-B148-49AD7722CF97/?_encoding=UTF8&store_ref=SB_A0863414FA4484FUTC3J-A08433391AG330W6CK8T5&pd_rd_plhdr=t&aaxitk=ed727931ecec72e5fb394cca67d4421c&hsa_cr_id=0&lp_asins=B0GF24LR6D%2CB0GF23R9B6%2CB0GF1V7BCC&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=ASn7UkTR37&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                            - generic [ref=e1689]:
+                              - generic [ref=e1690]: Redmi Note 15 Pro Series | On Sale Now
+                              - generic [ref=e1691]: Redmi Note 15 Pro Series | On Sale Now
+                - generic [ref=e1693]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                      - link "Dukaan." [ref=e1694] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                        - img "Dukaan." [ref=e1695]
+                      - generic [ref=e1697]:
+                        - generic [ref=e1698]:
+                          - link [ref=e1699] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                          - link "Dukaan." [ref=e1700] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                            - img "Dukaan." [ref=e1702]
+                        - generic [ref=e1703]:
+                          - link [ref=e1704] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                          - link "Smart gadget essentials" [ref=e1705] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JH2YPg9eBoICV6u2BRPKWm0AAAGcQlh56QoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCRB0nE/clv1c_ek-wxIHXFcbWDXHEa4vDoGk9I0-SK3ZV_NJAVuH3v4Npgeqi6ry7t0kuIFHI-HyCiegp_XWiNF8z4QbJnsTkb1kEfIbpXter6bV9ICEJw6r6qxfrplkBrcJ5Se8Q_nKy1hu9b2L_mxsFXnrrL0tddB69KZnMFlHuwqTw5JfoTI0Lc4ut_wCJo-i_-CmtLv9G1mb9NEfh9T3cjfQddUhT93fzxckTr0S-vKZslFjNVx8smIBdejKztR9knt3gvrdtCdg7sxNXxHzl73zoI09XHLqoOb_ttrGAbCA4dslKXBAiQt2wvXrzA6AiQa3bEqNF2cXNIMJL4Njn7jKIq32HtgqlBknd_Jbn_KlCrqbGwBZ5BC1eKn8Uf1L7KdGDllzTayMWQew_ksxPTkYm1GmCUdiFgnTdRnNYtV7K2nILUSRFETQ7X7DSEGQUDKkKfWzghf44E8tBDT_Qo_J0PetNuKS4ipQjSOY2d37d2no2iao3_sinKh98qPq8SeSwD0aq5f-VRcVDcrS_a-eEon80GSjcqEGZHyaNUVUjWuQIdrfgGrNyhiFjYKQEaCWoqmFQ_36GBBnDxBZ44Ofogb4E6SJMQadtEYd65qhuU9-VxfF4HbvFo_F0iNaZ3oPRcEbQmrBwWItW1tUe7PUN4PrEUhuyIyx6ETZr_neU6OQ8pC2om3qJGWp-TokvIi7U1XzXevP0cX6erdZ-B3gWEMzpdTuEh33BRpRaMqvLLxRp81mZQIi7f5H_HNhmh1DAJOPQKhUP_Gmqylk1SJiCq8ylzFsAd00gMVCKw9IYaGRmeXEsDDKfoBDYKs_ZitDjnfr_jEm7uSMPiM7TC-w7Pf_CKz3hhTwN6cEHG1JJfkDH3MY-5uVvYmnaasHlCEtXG4riCPpIxvzK_e6tWYxTAn3ECAEz3kEk-BXA-XaVCYdyaouzqxchUFAaAI-DTtQPHQKNGndKliv6ng0vtn2x_VO9jH-aC_w-Yfovpbj4-J3zGgEFNPuXWYWiQg8t2y4EB8pjzsmtDdmFtiD3VTSgTYaBTCtEJ7tOrRACdkO4AekAbUD8g_ZG77i8wC_WO_0vjugthMeIJUtXW7bb9yEFleoN1azbm3N4CzkJTHtPNyF1Sanv3P368Lb8ilKZ6lZpFtVBjdl-dNGL5eWtIZh6kKwb5j47rqIrPRaMr0RgxtZh5lyEDzG-8KNRgCrcCGLgcpVitVr6QoDnZjlVh5u5_0dNIl6jK2FNGH8z87fEzneoNQWhLyC7LJvDvpM1ClXYhhLzJoyJxGuOpUQvtB70kFJlLZihjSu_5ON9pwl6-LRC6Ut8CIOhc6R60Du3L65U6H_KotV-zDEcwn9gcA8e9abctMF7BTwaSbyeCCVdeHvtioqn2b3JhTqHT_uVsZDDb6LTIIc-dMS7NSj-qN9G-b_F0GlnKMk1hmpGldwleX2GQDtwdyyVu_u29bAdQcOpl_LbRN5tnbY9-T5KYuQ9SXEaLjk5B5iHNJ3IxGlvzvSZ2q4UOpVjFhf4WVRHVIgjKJJF0dj8pdVWTGhXgZxhVOMSt5UfCs8K78kNY64dwuptsd0PyiLfkKuCmNadcMKUlYlyYF3nEwTCUY-qhZVgwB31cMzyekvlx9LdFDiOcCDjZHlLHlPknwjukdy2bMTy9ho-nX1QiOMq3ILxgekIoCXzwWcpygFhNxSTlKbAzfr1mbRA/https://www.amazon.in/stores/page/AAAF3C4F-35FD-4BCA-B19D-4992E059A7BB/?_encoding=UTF8&store_ref=SB_A05434721V51MX4ZFPW27-A023802937T9L332MYCC9&pd_rd_plhdr=t&aaxitk=2a126619dd31574c784873c922fd3403&hsa_cr_id=0&lp_asins=B0FN9R6GJV%2CB0FNB12HQ6%2CB0FZ9RF41J&lp_query=Redmi%20phone&lp_slot=desktop-hsa-3psl&aref=2hiY9291nF&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=7Ur4d&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=JBWBZM3G1W1HCZ2STJKY&pd_rd_wg=62lxv&pd_rd_r=91be48ac-774f-4c83-8c10-31b05c84eeba
+                            - generic [ref=e1707]:
+                              - generic [ref=e1708]: Smart gadget essentials
+                              - generic [ref=e1709]: Smart gadget essentials
+          - generic [ref=e1715]:
+            - heading "Need help?" [level=2] [ref=e1718]
+            - generic [ref=e1719]:
+              - link "Visit the help section" [ref=e1720] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=e1721] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=e1722] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e1723]:
+        - generic [ref=e1724]:
+          - link "Skip to main search results" [ref=e1725] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e1731]:
+            - group [ref=e1732]:
+              - heading "Popular Shopping Ideas" [level=2] [ref=e1733]
+              - list [ref=e1734]:
+                - listitem [ref=e1735]:
+                  - link "Under 10000" [ref=e1737] [cursor=pointer]:
+                    - /url: /s?k=redmi+phone+under+10000&ref=sr_nr_p_rag_integrated_qb_0
+                - listitem [ref=e1738]:
+                  - link "Latest" [ref=e1740] [cursor=pointer]:
+                    - /url: /s?k=redmi+latest+phone&ref=sr_nr_p_rag_integrated_qb_1
+                - listitem [ref=e1741]:
+                  - link "8gb Ram" [ref=e1743] [cursor=pointer]:
+                    - /url: /s?k=redmi+phone+8gb+ram&ref=sr_nr_p_rag_integrated_qb_2
+                - listitem [ref=e1744]:
+                  - link "6gb Ram" [ref=e1746] [cursor=pointer]:
+                    - /url: /s?k=redmi+phone+6gb+ram&ref=sr_nr_p_rag_integrated_qb_3
+                - listitem [ref=e1747]:
+                  - button "See more" [ref=e1750] [cursor=pointer]: See more
+            - separator [ref=e1752]
+            - group "Delivery Day" [ref=e1753]:
+              - heading "Delivery Day" [level=2] [ref=e1754]
+              - list "Delivery Day" [ref=e1755]:
+                - listitem "Popular Shopping Ideas" [ref=e1756]:
+                  - link "Apply the filter Get It by Tomorrow to narrow results" [ref=e1758] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_90%3A6741118031&dc&qid=1770639620&rnid=6741116031&ref=sr_nr_p_90_1&ds=v1%3AqAEjO6UnQmeOdCzqa4uGMF4Bj2DlT8VnaBLb9dXpm%2Bw
+                    - checkbox [ref=e1761]
+                    - text: Get It by Tomorrow
+                - listitem "Popular Shopping Ideas" [ref=e1763]:
+                  - link "Apply the filter Get It in 2 Days to narrow results" [ref=e1765] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_90%3A20912642031&dc&qid=1770639620&rnid=6741116031&ref=sr_nr_p_90_2&ds=v1%3AsqJrwkIWZ10T66Aa9A1pv68TVkv0lAU6ghnxMz3apj4
+                    - checkbox [ref=e1768]
+                    - text: Get It in 2 Days
+              - heading "Eligible for Free Delivery" [level=2] [ref=e1770]
+              - list "Eligible for Free Delivery" [ref=e1771]:
+                - listitem "Popular Shopping Ideas" [ref=e1772]:
+                  - link "Apply the filter Free Shipping to narrow results" [ref=e1774] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1770639620&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3ATT0pdOLoMpOiU2IEPeUv6De9mgyYf%2Feq6Lm5vnfYoDU
+                    - checkbox [ref=e1777]
+                    - text: Free Shipping
+                    - generic [ref=e1779]: Get FREE Shipping on eligible orders shipped by Amazon
+            - group [ref=e1780]:
+              - generic [ref=e1781]:
+                - generic [ref=e1782]: Price
+                - generic [ref=e1785]:
+                  - generic [ref=e1786]:
+                    - generic [ref=e1787]: ₹140
+                    - generic [ref=e1788]: –
+                    - generic [ref=e1789]: ₹22,000+
+                  - generic [ref=e1791]:
+                    - generic:
+                      - slider "Minimum price": "0"
+                    - generic [ref=e1792]:
+                      - slider "Maximum price": "182"
+              - list [ref=e1793]:
+                - listitem [ref=e1794]:
+                  - link "Up to ₹9,500" [ref=e1796] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_36%3A-950000&dc&qid=1770639620&rnid=1318502031&ref=sr_nr_p_36_1&ds=v1%3AJ%2BKi98VmR7DHHaSh3PpcDgk0rOVbrEq%2FVjibyuuqGmg
+                - listitem [ref=e1797]:
+                  - link "₹9,500 - ₹13,500" [ref=e1799] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_36%3A950000-1350000&dc&qid=1770639620&rnid=1318502031&ref=sr_nr_p_36_2&ds=v1%3AyDMK69985RlzI%2FUOKXdVxIVVMw4cRdZM06hcJuG71no
+                - listitem [ref=e1800]:
+                  - link "Over ₹13,500" [ref=e1802] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_36%3A1350000-&dc&qid=1770639620&rnid=1318502031&ref=sr_nr_p_36_3&ds=v1%3An8DKW2%2FXUuKOVcK5eER84A1nmTMYKeO0lLjqh%2BPAG48
+              - heading "Deals & Discounts" [level=2] [ref=e1803]
+              - list "Deals & Discounts" [ref=e1804]:
+                - listitem [ref=e1805]:
+                  - link "All Discounts" [ref=e1807] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_deal_type%3A26921226031&dc&qid=1770639620&rnid=26921223031&ref=sr_nr_p_n_deal_type_1&ds=v1%3AXrzQDOB98jsQBIE2EFpYUm9b18rk8gAS6aMZ2Ucj4m4
+                - listitem [ref=e1808]:
+                  - link "Today's Deals" [ref=e1810] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_deal_type%3A26921224031&dc&qid=1770639620&rnid=26921223031&ref=sr_nr_p_n_deal_type_2&ds=v1%3A%2Bn86eOsv%2BpxKQpWaChG15eE1GrFgKC54JBjqeN%2B%2B0c8
+            - group "Brands" [ref=e1811]:
+              - heading "Brands" [level=2] [ref=e1812]
+              - list "Brands" [ref=e1813]:
+                - listitem "Popular Shopping Ideas" [ref=e1814]:
+                  - link "Apply the filter Redmi to narrow results" [ref=e1816] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A339703&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3Ao5MqzewsWTDl21wBQmFoEkuJVHZloscyLwQeHpy0pC8
+                    - checkbox [ref=e1819]
+                    - text: Redmi
+                - listitem "Popular Shopping Ideas" [ref=e1821]:
+                  - link "Apply the filter Samsung to narrow results" [ref=e1823] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A46655&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AgVRFV%2BWAw43pMkDxBOfOGWNoT5ChtQYkR9CVa%2FXn260
+                    - checkbox [ref=e1826]
+                    - text: Samsung
+                - listitem "Popular Shopping Ideas" [ref=e1828]:
+                  - link "Apply the filter realme to narrow results" [ref=e1830] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A568349&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_3&ds=v1%3Az%2FdFLo8M9Cskv%2BwlqU0LNcIgnwX%2Bqvt3kLrxnkkhhIA
+                    - checkbox [ref=e1833]
+                    - text: realme
+                - listitem "Popular Shopping Ideas" [ref=e1835]:
+                  - link "Apply the filter Lava to narrow results" [ref=e1837] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A940997&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_4&ds=v1%3AN73dpZcoRFRLXMGF70VCF0keAtTRdYy4KUX03nEJ0To
+                    - checkbox [ref=e1840]
+                    - text: Lava
+                - listitem "Popular Shopping Ideas" [ref=e1842]:
+                  - link "Apply the filter MI to narrow results" [ref=e1844] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A249828&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_5&ds=v1%3AZSKJqOyMHMuOfVQ6Kq8Gcslt%2FKtIdwy7TVX3rJqddK8
+                    - checkbox [ref=e1847]
+                    - text: MI
+                - listitem "Popular Shopping Ideas" [ref=e1849]:
+                  - link "Apply the filter acer to narrow results" [ref=e1851] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_123%3A247341&dc&qid=1770639620&rnid=91049095031&ref=sr_nr_p_123_6&ds=v1%3AY9LJsVmuZ73JhjRUjb4ZhvLXHulSn6%2BhWJnqXTHuqgo
+                    - checkbox [ref=e1854]
+                    - text: acer
+            - group "Customer Reviews" [ref=e1856]:
+              - heading "Customer Reviews" [level=2] [ref=e1857]
+              - list "Customer Reviews" [ref=e1858]:
+                - listitem [ref=e1859]:
+                  - link "Apply the filter 4 Stars & Up to narrow results" [ref=e1862] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_72%3A1318476031&dc&qid=1770639620&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3Avj7gvMmaLw0MKTxvNVjOpqU%2B4dgVTaBKZWOOY8DXEPo
+                    - generic [ref=e1864]: 4 Stars
+                    - text: "& Up"
+            - group "Storage Capacity" [ref=e1865]:
+              - heading "Storage Capacity" [level=2] [ref=e1866]
+              - list "Storage Capacity" [ref=e1867]:
+                - listitem "Popular Shopping Ideas" [ref=e1868]:
+                  - link "Apply the filter 64 GB to narrow results" [ref=e1870] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003492455111%3A81332998031&dc&qid=1770639620&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_1&ds=v1%3AFj89uMrB4seeIxav0zZw1haot6%2FZoytaZ5qzEVIH1Ac
+                    - checkbox [ref=e1873]
+                    - text: 64 GB
+                - listitem "Popular Shopping Ideas" [ref=e1875]:
+                  - link "Apply the filter 128 GB to narrow results" [ref=e1877] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003492455111%3A81332994031&dc&qid=1770639620&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_2&ds=v1%3Ac5UZrctCcmXGO0ClUCHlnhQPV8YN3Q9oFJavmS1nKv8
+                    - checkbox [ref=e1880]
+                    - text: 128 GB
+                - listitem "Popular Shopping Ideas" [ref=e1882]:
+                  - link "Apply the filter 256 GB to narrow results" [ref=e1884] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003492455111%3A81332996031&dc&qid=1770639620&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_3&ds=v1%3AHKdj4rzoex8Kn9Ty22R1AVzSYc0on028oFRY1E9HAVc
+                    - checkbox [ref=e1887]
+                    - text: 256 GB
+            - group "RAM Size" [ref=e1889]:
+              - heading "RAM Size" [level=2] [ref=e1890]
+              - list "RAM Size" [ref=e1891]:
+                - listitem "Popular Shopping Ideas" [ref=e1892]:
+                  - link "Apply the filter 2 to 3.9 GB to narrow results" [ref=e1894] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003495121111%3A44897290031&dc&qid=1770639620&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_1&ds=v1%3AuWj2C8bwSAO64mmW7TDZBPkyOQK6%2BntzPqnydDZk9L8
+                    - checkbox [ref=e1897]
+                    - text: 2 to 3.9 GB
+                - listitem "Popular Shopping Ideas" [ref=e1899]:
+                  - link "Apply the filter 4 to 5.9 GB to narrow results" [ref=e1901] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003495121111%3A44897296031&dc&qid=1770639620&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_2&ds=v1%3ATldKPE8MI3fDwnyqrpeJBTBqe4CxM%2FsCgQdVzcQoHug
+                    - checkbox [ref=e1904]
+                    - text: 4 to 5.9 GB
+                - listitem "Popular Shopping Ideas" [ref=e1906]:
+                  - link "Apply the filter 6 to 7.9 GB to narrow results" [ref=e1908] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003495121111%3A44897287031&dc&qid=1770639620&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_3&ds=v1%3Aiw1QO94TnZGbsumoM2CTTM2oUmZ6Xl7RSeS81J7y7LU
+                    - checkbox [ref=e1911]
+                    - text: 6 to 7.9 GB
+                - listitem "Popular Shopping Ideas" [ref=e1913]:
+                  - link "Apply the filter 8 to 9.9 GB to narrow results" [ref=e1915] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003495121111%3A44897288031&dc&qid=1770639620&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_4&ds=v1%3AidmJc365A3qEhS20UzU4tp1aBqrecW2J0oCYzsrMA0k
+                    - checkbox [ref=e1918]
+                    - text: 8 to 9.9 GB
+            - group "Cellular Technology" [ref=e1920]:
+              - heading "Cellular Technology" [level=2] [ref=e1921]
+              - list "Cellular Technology" [ref=e1922]:
+                - listitem "Popular Shopping Ideas" [ref=e1923]:
+                  - link "Apply the filter 4G to narrow results" [ref=e1925] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003469290111%3A33962379031&dc&qid=1770639620&rnid=33962288031&ref=sr_nr_p_n_g-1003469290111_1&ds=v1%3ACQKQwk8ftpMZTstyG0qMkjJll136wHri6StVVkCeNLs
+                    - checkbox [ref=e1928]
+                    - text: 4G
+                - listitem "Popular Shopping Ideas" [ref=e1930]:
+                  - link "Apply the filter 5G to narrow results" [ref=e1932] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003469290111%3A33962382031&dc&qid=1770639620&rnid=33962288031&ref=sr_nr_p_n_g-1003469290111_2&ds=v1%3AVTeA5mVUzt9JTKgEPpyiHBTyFnMufYlPeXLSbGs2140
+                    - checkbox [ref=e1935]
+                    - text: 5G
+            - group "Item Condition" [ref=e1937]:
+              - heading "Item Condition" [level=2] [ref=e1938]
+              - list "Item Condition" [ref=e1939]:
+                - listitem "Popular Shopping Ideas" [ref=e1940]:
+                  - link "Apply the filter New to narrow results" [ref=e1942] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_condition-type%3A8609960031&dc&qid=1770639620&rnid=8609959031&ref=sr_nr_p_n_condition-type_1&ds=v1%3Ax%2B5H4bPdEAOpLKVa50gHFBfA02tCefVjxjtFwmR69cQ
+                    - checkbox [ref=e1945]
+                    - text: New
+            - group "Battery Capacity" [ref=e1947]:
+              - heading "Battery Capacity" [level=2] [ref=e1948]
+              - list "Battery Capacity" [ref=e1949]:
+                - listitem "Popular Shopping Ideas" [ref=e1950]:
+                  - link "Apply the filter 5,000 to 5,999 mAh to narrow results" [ref=e1952] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015098008111%3A91805326031&dc&qid=1770639620&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_1&ds=v1%3A%2BaliErZbNk%2FLTz3SN7FlP91VLjWVAjE4JbEtr%2FgUZTU
+                    - checkbox [ref=e1955]
+                    - text: 5,000 to 5,999 mAh
+                - listitem "Popular Shopping Ideas" [ref=e1957]:
+                  - link "Apply the filter 6,000 mAh & Above to narrow results" [ref=e1959] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015098008111%3A92071917031&dc&qid=1770639620&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_2&ds=v1%3AKKCwfHCAvONXo2XWfAPGs3J2O%2FcEwwWOSGDGiey1LUs
+                    - checkbox [ref=e1962]
+                    - text: 6,000 mAh & Above
+            - group "Processor Speed" [ref=e1964]:
+              - heading "Processor Speed" [level=2] [ref=e1965]
+              - list "Processor Speed" [ref=e1966]:
+                - listitem "Popular Shopping Ideas" [ref=e1967]:
+                  - link "Apply the filter 1.5 - 1.99 GHz to narrow results" [ref=e1969] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_feature_nine_browse-bin%3A8561125031&dc&qid=1770639620&rnid=8561123031&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AVpA%2BZxSdQDbV6iOYzKerCLAJp6kb6hTpBW7jWoolyp4
+                    - checkbox [ref=e1972]
+                    - text: 1.5 - 1.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=e1974]:
+                  - link "Apply the filter 2 - 2.4 GHz to narrow results" [ref=e1976] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_feature_nine_browse-bin%3A8561126031&dc&qid=1770639620&rnid=8561123031&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3AhvB%2BytMKRC68IDoTUvg1506xQB6o8wHX%2BjjTgM16jWo
+                    - checkbox [ref=e1979]
+                    - text: 2 - 2.4 GHz
+            - group "Discount" [ref=e1981]:
+              - heading "Discount" [level=2] [ref=e1982]
+              - list "Discount" [ref=e1983]:
+                - listitem [ref=e1984]:
+                  - link "10% Off or more" [ref=e1986] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_pct-off-with-tax%3A2665399031&dc&qid=1770639620&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3A8r3VcjQc6VZHd1CQc3eNA7WcEBVfsj4OQbyjyR%2BQshI
+                - listitem [ref=e1987]:
+                  - link "25% Off or more" [ref=e1989] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_pct-off-with-tax%3A2665400031&dc&qid=1770639620&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AVFOramJeQDa9IKDFnLyB3aLn3cOW8ZWfio5OzTA4rf0
+                - listitem [ref=e1990]:
+                  - link "35% Off or more" [ref=e1992] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_pct-off-with-tax%3A2665402031&dc&qid=1770639620&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AGiLqO6HNv4aQBVcoHqhW07kS3KH84ONGvPIHGKLZ0aM
+                - listitem [ref=e1993]:
+                  - link "50% Off or more" [ref=e1995] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_pct-off-with-tax%3A2665401031&dc&qid=1770639620&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3APnvAg4GyEgEZ%2FWJk3NcFgzyln2LBay%2FXPZ2giowWt1I
+                - listitem [ref=e1996]:
+                  - generic [ref=e1997]: 60% Off or more
+                - listitem [ref=e1998]:
+                  - generic [ref=e1999]: 70% Off or more
+            - group "Display Type" [ref=e2000]:
+              - heading "Display Type" [level=2] [ref=e2001]
+              - list "Display Type" [ref=e2002]:
+                - listitem "Popular Shopping Ideas" [ref=e2003]:
+                  - link "Apply the filter AMOLED to narrow results" [ref=e2005] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013595158111%3A66009619031&dc&qid=1770639620&rnid=66009617031&ref=sr_nr_p_n_g-101013595158111_1&ds=v1%3AxGzuAhkVgsE4J%2BBZLVTagzaIV3T7vwqNXf0QjB%2BnX%2B4
+                    - checkbox [ref=e2008]
+                    - text: AMOLED
+                - listitem "Popular Shopping Ideas" [ref=e2010]:
+                  - link "Apply the filter LCD to narrow results" [ref=e2012] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013595158111%3A66009618031&dc&qid=1770639620&rnid=66009617031&ref=sr_nr_p_n_g-101013595158111_2&ds=v1%3A6YFP6%2FS4lDVS9W0QTqFEDWd0S43Xg44Emo%2B4ED%2BKcNo
+                    - checkbox [ref=e2015]
+                    - text: LCD
+            - group "Screen Size" [ref=e2017]:
+              - heading "Screen Size" [level=2] [ref=e2018]
+              - list "Screen Size" [ref=e2019]:
+                - listitem "Popular Shopping Ideas" [ref=e2020]:
+                  - link "Apply the filter 15 to 17.9 cm to narrow results" [ref=e2022] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_feature_browse-bin%3A212266964031&dc&qid=1770639620&rnid=212266959031&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3Ab5XbsjNNVlfXkZCS0RDI2etAaFwORb%2F3V6rNt40xMoE
+                    - checkbox [ref=e2025]
+                    - text: 15 to 17.9 cm
+            - group "Camera Resolution" [ref=e2027]:
+              - heading "Camera Resolution" [level=2] [ref=e2028]
+              - list "Camera Resolution" [ref=e2029]:
+                - listitem "Popular Shopping Ideas" [ref=e2030]:
+                  - link "Apply the filter 20 MP & above to narrow results" [ref=e2032] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1004151207091%3A1898707031&dc&qid=1770639620&rnid=1898694031&ref=sr_nr_p_n_g-1004151207091_1&ds=v1%3AQ%2Fzv6DrRBVtD%2F3CdSr%2BmC%2BP2Bvwum1rLwaQSZY2cCY0
+                    - checkbox [ref=e2035]
+                    - text: 20 MP & above
+            - group "Mobile Phone Primary Camera Resolution" [ref=e2037]:
+              - heading "Mobile Phone Primary Camera Resolution" [level=2] [ref=e2038]
+              - list "Mobile Phone Primary Camera Resolution" [ref=e2039]:
+                - listitem "Popular Shopping Ideas" [ref=e2040]:
+                  - link "Apply the filter 12 - 15.9 MP to narrow results" [ref=e2042] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_feature_fourteen_browse-bin%3A21329554031&dc&qid=1770639620&rnid=21345983031&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3A7SmczBWylv4q%2FjlkEAV%2B%2BooZ8tRtq12xnGKtGwOJcFU
+                    - checkbox [ref=e2045]
+                    - text: 12 - 15.9 MP
+                - listitem "Popular Shopping Ideas" [ref=e2047]:
+                  - link "Apply the filter 32 MP & Above to narrow results" [ref=e2049] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_feature_fourteen_browse-bin%3A21329559031&dc&qid=1770639620&rnid=21345983031&ref=sr_nr_p_n_feature_fourteen_browse-bin_2&ds=v1%3ADS%2FcJfKB%2F2B9TF38x7OF2B%2FKxMP%2BpbzhO8HeovPudRs
+                    - checkbox [ref=e2052]
+                    - text: 32 MP & Above
+            - group "Operating System" [ref=e2054]:
+              - heading "Operating System" [level=2] [ref=e2055]
+              - list "Operating System" [ref=e2056]:
+                - listitem "Popular Shopping Ideas" [ref=e2057]:
+                  - link "Apply the filter Android 14 to narrow results" [ref=e2059] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003517064111%3A206818075031&dc&qid=1770639620&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_1&ds=v1%3AtHAZpA6hr84cxUd9TVWqJToiu3QRC5ivuZTz5RCgpsU
+                    - checkbox [ref=e2062]
+                    - text: Android 14
+                - listitem "Popular Shopping Ideas" [ref=e2064]:
+                  - link "Apply the filter Android 10.0 to narrow results" [ref=e2066] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003517064111%3A51258730031&dc&qid=1770639620&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_2&ds=v1%3AEmkqpMfvQjspQz6ZVsphQISiGUIfkf%2FeI0k1TgPhdLQ
+                    - checkbox [ref=e2069]
+                    - text: Android 10.0
+                - listitem "Popular Shopping Ideas" [ref=e2071]:
+                  - link "Apply the filter Android 9.0 to narrow results" [ref=e2073] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003517064111%3A51258767031&dc&qid=1770639620&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_3&ds=v1%3Ak%2BzscfVyOnXemaCpDSwDvnEmFyiQoxQmm%2F83ruRBtRA
+                    - checkbox [ref=e2076]
+                    - text: Android 9.0
+                - listitem "Popular Shopping Ideas" [ref=e2078]:
+                  - link "Apply the filter MIUI 12 to narrow results" [ref=e2080] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003517064111%3A51258670031&dc&qid=1770639620&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_4&ds=v1%3ACNOd8SlwVFsaWNnATh5UTg%2BT4k9hi142xXW5slDbcZM
+                    - checkbox [ref=e2083]
+                    - text: MIUI 12
+            - group "Cell Phone Brands" [ref=e2085]:
+              - heading "Cell Phone Brands" [level=2] [ref=e2086]
+              - list "Cell Phone Brands" [ref=e2087]:
+                - listitem "Popular Shopping Ideas" [ref=e2088]:
+                  - link "Apply the filter Top Brands to narrow results" [ref=e2090] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_format_browse-bin%3A30678580031&dc&qid=1770639620&rnid=30678573031&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AkesBLuME3dHN0Rv3FbLxaiqfq3943vXWUS29peIwwY8
+                    - checkbox [ref=e2093]
+                    - text: Top Brands
+            - group "SIM Card Slot Count" [ref=e2095]:
+              - heading "SIM Card Slot Count" [level=2] [ref=e2096]
+              - list "SIM Card Slot Count" [ref=e2097]:
+                - listitem "Popular Shopping Ideas" [ref=e2098]:
+                  - link "Apply the filter Single SIM to narrow results" [ref=e2100] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002989427111%3A27179458031&dc&qid=1770639620&rnid=27179439031&ref=sr_nr_p_n_g-1002989427111_1&ds=v1%3AXRf%2FEJ0ddhuqXPM2vuusbrGRvYtUBIA6KTOfQB18M6g
+                    - checkbox [ref=e2103]
+                    - text: Single SIM
+                - listitem "Popular Shopping Ideas" [ref=e2105]:
+                  - link "Apply the filter Dual SIM to narrow results" [ref=e2107] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002989427111%3A27179459031&dc&qid=1770639620&rnid=27179439031&ref=sr_nr_p_n_g-1002989427111_2&ds=v1%3AI0Rg3YLXNjIZb2R6ZoCAzqie%2BZQejt4vc%2BvNFvMu8EU
+                    - checkbox [ref=e2110]
+                    - text: Dual SIM
+            - group "Front Camera Resolution" [ref=e2112]:
+              - heading "Front Camera Resolution" [level=2] [ref=e2113]
+              - list "Front Camera Resolution" [ref=e2114]:
+                - listitem "Popular Shopping Ideas" [ref=e2115]:
+                  - link "Apply the filter Up to 6.9 MP to narrow results" [ref=e2117] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003565058111%3A61505203031&dc&qid=1770639620&rnid=61505195031&ref=sr_nr_p_n_g-1003565058111_1&ds=v1%3Aa5qUJcFxfl3xjJy%2BX02v9bd%2B2AhEFdhDTMrTPK7ll%2BE
+                    - checkbox [ref=e2120]
+                    - text: Up to 6.9 MP
+                - listitem "Popular Shopping Ideas" [ref=e2122]:
+                  - link "Apply the filter 13.0 MP & above to narrow results" [ref=e2124] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003565058111%3A61505197031&dc&qid=1770639620&rnid=61505195031&ref=sr_nr_p_n_g-1003565058111_2&ds=v1%3Amxg5SFXvop0pk5jxrIiXJOn%2BqK9C9TjzbAs3NdnUfiQ
+                    - checkbox [ref=e2127]
+                    - text: 13.0 MP & above
+            - group "Connector Type" [ref=e2129]:
+              - heading "Connector Type" [level=2] [ref=e2130]
+              - list "Connector Type" [ref=e2131]:
+                - listitem "Popular Shopping Ideas" [ref=e2132]:
+                  - link "Apply the filter 3.5mm Jack to narrow results" [ref=e2134] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085485111%3A27403492031&dc&qid=1770639620&rnid=27403487031&ref=sr_nr_p_n_g-1002085485111_1&ds=v1%3AWpahLx%2Bjyis0MJwMkAvzOR0GhLa4cR187LnQOinRomY
+                    - checkbox [ref=e2137]
+                    - text: 3.5mm Jack
+                - listitem "Popular Shopping Ideas" [ref=e2139]:
+                  - link "Apply the filter Lightning to narrow results" [ref=e2141] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085485111%3A27403489031&dc&qid=1770639620&rnid=27403487031&ref=sr_nr_p_n_g-1002085485111_2&ds=v1%3A2DhxqyfPUindX93Gud1b1RVvcQUUu8Ro4gN47v%2B1EMs
+                    - checkbox [ref=e2144]
+                    - text: Lightning
+                - listitem "Popular Shopping Ideas" [ref=e2146]:
+                  - link "Apply the filter Micro USB to narrow results" [ref=e2148] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085485111%3A27403488031&dc&qid=1770639620&rnid=27403487031&ref=sr_nr_p_n_g-1002085485111_3&ds=v1%3ADgAnmSdlNV8ja4nYTyyRkqFBbtBHjGVrg5zS5esitys
+                    - checkbox [ref=e2151]
+                    - text: Micro USB
+                - listitem "Popular Shopping Ideas" [ref=e2153]:
+                  - link "Apply the filter USB Type C to narrow results" [ref=e2155] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085485111%3A27403491031&dc&qid=1770639620&rnid=27403487031&ref=sr_nr_p_n_g-1002085485111_4&ds=v1%3AkU0b3UZj7weqXyE9F0gKL60mYud9uCTS%2F4OFKP%2Bv%2Bz8
+                    - checkbox [ref=e2158]
+                    - text: USB Type C
+            - group "Pay On Delivery" [ref=e2160]:
+              - heading "Pay On Delivery" [level=2] [ref=e2161]
+              - list "Pay On Delivery" [ref=e2162]:
+                - listitem "Popular Shopping Ideas" [ref=e2163]:
+                  - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e2165] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_is_cod_eligible%3A4931671031&dc&qid=1770639620&rnid=4931670031&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AMTsTejpDzhzgt2wnWblXE0MTZZ62Rrsl2UqDwmPUjps
+                    - checkbox [ref=e2168]
+                    - text: Eligible for Pay On Delivery
+            - group "Security Feature" [ref=e2170]:
+              - heading "Security Feature" [level=2] [ref=e2171]
+              - list "Security Feature" [ref=e2172]:
+                - listitem "Popular Shopping Ideas" [ref=e2173]:
+                  - link "Apply the filter Fingerprint Recognition to narrow results" [ref=e2175] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085472111%3A27355812031&dc&qid=1770639620&rnid=27355796031&ref=sr_nr_p_n_g-1002085472111_1&ds=v1%3AatmdnwT17C2XiLDYSjSBP7I8%2B1JfW7uvmJ5vNpjRSdI
+                    - checkbox [ref=e2178]
+                    - text: Fingerprint Recognition
+                - listitem "Popular Shopping Ideas" [ref=e2180]:
+                  - link "Apply the filter Face Recognition to narrow results" [ref=e2182] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002085472111%3A27355807031&dc&qid=1770639620&rnid=27355796031&ref=sr_nr_p_n_g-1002085472111_2&ds=v1%3AalUNkU8%2F%2BXmZj8vzwNFf4cKFdTtI%2B6s72K46HyTv0hA
+                    - checkbox [ref=e2185]
+                    - text: Face Recognition
+            - group "Connectivity" [ref=e2187]:
+              - heading "Connectivity" [level=2] [ref=e2188]
+              - list "Connectivity" [ref=e2189]:
+                - listitem "Popular Shopping Ideas" [ref=e2190]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=e2192] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002112230111%3A27363277031&dc&qid=1770639620&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_1&ds=v1%3Autz8Vrap4%2B6yQi3eKOcNUFf1aY5HDJL3Ehqxmc5Nlvs
+                    - checkbox [ref=e2195]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=e2197]:
+                  - link "Apply the filter NFC to narrow results" [ref=e2199] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002112230111%3A27363279031&dc&qid=1770639620&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_2&ds=v1%3AuWp0zekWK5sw4IkvQZyA5mfMmp1JNZmQrtAdv%2B17%2BNo
+                    - checkbox [ref=e2202]
+                    - text: NFC
+                - listitem "Popular Shopping Ideas" [ref=e2204]:
+                  - link "Apply the filter USB to narrow results" [ref=e2206] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002112230111%3A27363276031&dc&qid=1770639620&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_3&ds=v1%3AqfnmdRpH0wIvET3YLOHTVm%2Fn4PqY5qF3XmbW%2FmHi8xs
+                    - checkbox [ref=e2209]
+                    - text: USB
+                - listitem "Popular Shopping Ideas" [ref=e2211]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=e2213] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002112230111%3A27363278031&dc&qid=1770639620&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_4&ds=v1%3ADIQdly8xgS%2BtXGFEtIHIeM%2FVAmbpaNO6P%2FQTJg7JraA
+                    - checkbox [ref=e2216]
+                    - text: Wi-Fi
+            - group "Colour" [ref=e2218]:
+              - heading "Colour" [level=2] [ref=e2219]
+              - list "Colour" [ref=e2220]:
+                - listitem [ref=e2221]:
+                  - generic:
+                    - link "Apply the filter Multicoloured to narrow results":
+                      - /url: /s?k=Redmi+phone&rh=p_n_size_two_browse-vebin%3A15564011031&dc&qid=1770639620&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AteNQfFk30jpQ%2FOxGN0yaodBUqKwflqOCWzF9q5kNVaA
+                - listitem [ref=e2223]:
+                  - generic:
+                    - link "Apply the filter Black to narrow results":
+                      - /url: /s?k=Redmi+phone&rh=p_n_size_two_browse-vebin%3A15563995031&dc&qid=1770639620&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3AWd6gcSX7ire8KLMnpqBgy5EADlgs6%2FFBIKf1IXDSR0I
+                - listitem [ref=e2225]:
+                  - generic:
+                    - link "Apply the filter Green to narrow results":
+                      - /url: /s?k=Redmi+phone&rh=p_n_size_two_browse-vebin%3A15564005031&dc&qid=1770639620&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AFNxwoW6L4hGQYSehPRPBA5k1KiTnUuVdi0jlwp9n4mM
+                - listitem [ref=e2227]:
+                  - generic:
+                    - link "Apply the filter White to narrow results":
+                      - /url: /s?k=Redmi+phone&rh=p_n_size_two_browse-vebin%3A15563997031&dc&qid=1770639620&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3A5igUWrNNjcKW1C1E5S9PsgDgfii5jOV%2B5DV41cWr2B4
+                - listitem [ref=e2229]:
+                  - generic:
+                    - link "Apply the filter Blue to narrow results":
+                      - /url: /s?k=Redmi+phone&rh=p_n_size_two_browse-vebin%3A15564007031&dc&qid=1770639620&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3A0CnJSMiecqHv8ly5yvl1Jyxd3RQhkpuqlBiBjsrwcAw
+            - group "Video Capture Resolution" [ref=e2231]:
+              - heading "Video Capture Resolution" [level=2] [ref=e2232]
+              - list "Video Capture Resolution" [ref=e2233]:
+                - listitem "Popular Shopping Ideas" [ref=e2234]:
+                  - link "Apply the filter 1080p to narrow results" [ref=e2236] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003305462111%3A28430295031&dc&qid=1770639620&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_1&ds=v1%3Ab44HhQ5oj%2B2JHcRFWjOWCOdFRjRHdHC9Jnnq3ke4KUM
+                    - checkbox [ref=e2239]
+                    - text: 1080p
+                - listitem "Popular Shopping Ideas" [ref=e2241]:
+                  - link "Apply the filter 2K to narrow results" [ref=e2243] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003305462111%3A100139568031&dc&qid=1770639620&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_2&ds=v1%3ALXHBXC0%2F4iewfGTqI0XPGvtISqKRIv72auEViB4XfgU
+                    - checkbox [ref=e2246]
+                    - text: 2K
+                - listitem "Popular Shopping Ideas" [ref=e2248]:
+                  - link "Apply the filter 4k to narrow results" [ref=e2250] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003305462111%3A28430294031&dc&qid=1770639620&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_3&ds=v1%3APBpXoEIoDtY9RyxqhX71ev7jq%2FhIvMmurYkCD5Sy8Kw
+                    - checkbox [ref=e2253]
+                    - text: 4k
+                - listitem "Popular Shopping Ideas" [ref=e2255]:
+                  - link "Apply the filter 720p to narrow results" [ref=e2257] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003305462111%3A28430293031&dc&qid=1770639620&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_4&ds=v1%3Ak3Fp6%2BnGBl3eLls15eBhcgqnVwROecdRU0GD69rDYW0
+                    - checkbox [ref=e2260]
+                    - text: 720p
+            - group "Battery Life" [ref=e2262]:
+              - heading "Battery Life" [level=2] [ref=e2263]
+              - list "Battery Life" [ref=e2264]:
+                - listitem "Popular Shopping Ideas" [ref=e2265]:
+                  - link "Apply the filter 19 h & above to narrow results" [ref=e2267] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003486052111%3A42062130031&dc&qid=1770639620&rnid=42062008031&ref=sr_nr_p_n_g-1003486052111_1&ds=v1%3AavSYgs84J7H205wX4vaTpzoJIc0HG9W%2FKkSr72d2aWU
+                    - checkbox [ref=e2270]
+                    - text: 19 h & above
+            - group "Rear Camera Photo Sensor Resolution" [ref=e2272]:
+              - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=e2273]
+              - list "Rear Camera Photo Sensor Resolution" [ref=e2274]:
+                - listitem "Popular Shopping Ideas" [ref=e2275]:
+                  - link "Apply the filter Up to 9.9 MP to narrow results" [ref=e2277] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003477899111%3A42253779031&dc&qid=1770639620&rnid=42253749031&ref=sr_nr_p_n_g-1003477899111_1&ds=v1%3ApA1DWcnYwj48qzkKz0uTM9INoMEC7rVTK%2BFrHdYlvNs
+                    - checkbox [ref=e2280]
+                    - text: Up to 9.9 MP
+                - listitem "Popular Shopping Ideas" [ref=e2282]:
+                  - link "Apply the filter 13 to 15.9 MP to narrow results" [ref=e2284] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003477899111%3A42253776031&dc&qid=1770639620&rnid=42253749031&ref=sr_nr_p_n_g-1003477899111_2&ds=v1%3AVXzmqBkL7t6oW3fX%2BdOTsJSMjI6mzsQ154epM1MAnHY
+                    - checkbox [ref=e2287]
+                    - text: 13 to 15.9 MP
+                - listitem "Popular Shopping Ideas" [ref=e2289]:
+                  - link "Apply the filter 16 MP & Above to narrow results" [ref=e2291] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003477899111%3A42253778031&dc&qid=1770639620&rnid=42253749031&ref=sr_nr_p_n_g-1003477899111_3&ds=v1%3AonPOHlbZs%2FWJIfUvSut2TRJx%2FFT%2FoxGDsZ8Nf5DQYM0
+                    - checkbox [ref=e2294]
+                    - text: 16 MP & Above
+            - group "Sim Card Size" [ref=e2296]:
+              - heading "Sim Card Size" [level=2] [ref=e2297]
+              - list "Sim Card Size" [ref=e2298]:
+                - listitem "Popular Shopping Ideas" [ref=e2299]:
+                  - link "Apply the filter Nano to narrow results" [ref=e2301] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002989370111%3A27179455031&dc&qid=1770639620&rnid=27179438031&ref=sr_nr_p_n_g-1002989370111_1&ds=v1%3AtGsWSz6lO8Nq%2FAfDp%2FDjFLgN9jf2VKzr2FCz3wrce2Q
+                    - checkbox [ref=e2304]
+                    - text: Nano
+            - group "GPS Navigation" [ref=e2306]:
+              - heading "GPS Navigation" [level=2] [ref=e2307]
+              - list "GPS Navigation" [ref=e2308]:
+                - listitem "Popular Shopping Ideas" [ref=e2309]:
+                  - link "Apply the filter True to narrow results" [ref=e2311] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015364874111%3A96329643031&dc&qid=1770639620&rnid=96329629031&ref=sr_nr_p_n_g-101015364874111_1&ds=v1%3AkjA6paJVgmk4F0QDQk3WfAzWNBDBpo1m098NPnjR96s
+                    - checkbox [ref=e2314]
+                    - text: "True"
+            - group "Availability" [ref=e2316]:
+              - heading "Availability" [level=2] [ref=e2317]
+              - list "Availability" [ref=e2318]:
+                - listitem "Popular Shopping Ideas" [ref=e2319]:
+                  - link "Apply the filter Include Out of Stock to narrow results" [ref=e2321] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_availability%3A1318485031&dc&qid=1770639620&rnid=1318483031&ref=sr_nr_p_n_availability_2&ds=v1%3ATycatlPlKkX5pwca%2B9lVXTgetymHQzd5RQ71JeGsld8
+                    - checkbox [ref=e2324]
+                    - text: Include Out of Stock
+            - group "Headphones Jack" [ref=e2326]:
+              - heading "Headphones Jack" [level=2] [ref=e2327]
+              - list "Headphones Jack" [ref=e2328]:
+                - listitem "Popular Shopping Ideas" [ref=e2329]:
+                  - link "Apply the filter 3.5 mm to narrow results" [ref=e2331] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015501406111%3A100427563031&dc&qid=1770639620&rnid=100427546031&ref=sr_nr_p_n_g-101015501406111_1&ds=v1%3A0lABix7kDefM%2Fq5Kb0n3eMD%2BF3EMV0DwUb%2FIAI6PCEQ
+                    - checkbox [ref=e2334]
+                    - text: 3.5 mm
+            - group "Weight" [ref=e2336]:
+              - heading "Weight" [level=2] [ref=e2337]
+              - list "Weight" [ref=e2338]:
+                - listitem "Popular Shopping Ideas" [ref=e2339]:
+                  - link "Apply the filter Up to 141.9 g to narrow results" [ref=e2341] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003491669111%3A42659590031&dc&qid=1770639620&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_1&ds=v1%3AT7IAbvQwDGiJ84%2B86vaRfk5qSglyxmkVXhbJ1hCba9Q
+                    - checkbox [ref=e2344]
+                    - text: Up to 141.9 g
+                - listitem "Popular Shopping Ideas" [ref=e2346]:
+                  - link "Apply the filter 142 to 197.9 g to narrow results" [ref=e2348] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003491669111%3A42659588031&dc&qid=1770639620&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_2&ds=v1%3Azb08kKRZLDyjKfUYJpicFZEleRatEV%2F9ayVBoCYSZdc
+                    - checkbox [ref=e2351]
+                    - text: 142 to 197.9 g
+                - listitem "Popular Shopping Ideas" [ref=e2353]:
+                  - link "Apply the filter 198 to 254.9 g to narrow results" [ref=e2355] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003491669111%3A42659589031&dc&qid=1770639620&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_3&ds=v1%3A80hs6DYlhhCTMZleAXxpgMnG3BLhH73Sx54mg67cMXY
+                    - checkbox [ref=e2358]
+                    - text: 198 to 254.9 g
+                - listitem "Popular Shopping Ideas" [ref=e2360]:
+                  - link "Apply the filter 255 g & Above to narrow results" [ref=e2362] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1003491669111%3A42659591031&dc&qid=1770639620&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_4&ds=v1%3At%2BLRbNbPVXXC1X8gzcZvKPNy1%2BEXOFgBCyKvyJpdLIg
+                    - checkbox [ref=e2365]
+                    - text: 255 g & Above
+            - group "Flash" [ref=e2367]:
+              - heading "Flash" [level=2] [ref=e2368]
+              - list "Flash" [ref=e2369]:
+                - listitem "Popular Shopping Ideas" [ref=e2370]:
+                  - link "Apply the filter LED to narrow results" [ref=e2372] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015500208111%3A100427321031&dc&qid=1770639620&rnid=100427311031&ref=sr_nr_p_n_g-101015500208111_1&ds=v1%3A4MxWgXAG%2Brt1aLkKpueuyScZIMXOcuzcAFfeOwu3HAM
+                    - checkbox [ref=e2375]
+                    - text: LED
+            - group "Display Refresh Rate in Hertz" [ref=e2377]:
+              - heading "Display Refresh Rate in Hertz" [level=2] [ref=e2378]
+              - list "Display Refresh Rate in Hertz" [ref=e2379]:
+                - listitem "Popular Shopping Ideas" [ref=e2380]:
+                  - link "Apply the filter 60 to narrow results" [ref=e2382] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101017397158111%3A214852065031&dc&qid=1770639620&rnid=214852064031&ref=sr_nr_p_n_g-101017397158111_1&ds=v1%3AQhd1ZdasZbfVVnu9f79%2FPeg7EMRx75xLr6%2BzI8o1QiQ
+                    - checkbox [ref=e2385]
+                    - text: "60"
+                - listitem "Popular Shopping Ideas" [ref=e2387]:
+                  - link "Apply the filter 120 to narrow results" [ref=e2389] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101017397158111%3A214852071031&dc&qid=1770639620&rnid=214852064031&ref=sr_nr_p_n_g-101017397158111_2&ds=v1%3AMFE4VZSxH9QOTQx1VQlmAjN52jHNi2IHJM58vOSGGRM
+                    - checkbox [ref=e2392]
+                    - text: "120"
+            - group "Input" [ref=e2394]:
+              - heading "Input" [level=2] [ref=e2395]
+              - list "Input" [ref=e2396]:
+                - listitem "Popular Shopping Ideas" [ref=e2397]:
+                  - link "Apply the filter Touchscreen to narrow results" [ref=e2399] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002097072111%3A27362061031&dc&qid=1770639620&rnid=27362059031&ref=sr_nr_p_n_g-1002097072111_1&ds=v1%3ArKsqAt54B6Dr5ZKf1vom8jZ6GF2R%2BlK5TzhkWL9CSic
+                    - checkbox [ref=e2402]
+                    - text: Touchscreen
+            - group "Wireless Network Technology" [ref=e2404]:
+              - heading "Wireless Network Technology" [level=2] [ref=e2405]
+              - list "Wireless Network Technology" [ref=e2406]:
+                - listitem "Popular Shopping Ideas" [ref=e2407]:
+                  - link "Apply the filter LTE to narrow results" [ref=e2409] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498571111%3A100436153031&dc&qid=1770639620&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_1&ds=v1%3AS0mAb7bveNMPk9quwNlOfDniDUo%2BwSUahPq1xAakhMI
+                    - checkbox [ref=e2412]
+                    - text: LTE
+                - listitem "Popular Shopping Ideas" [ref=e2414]:
+                  - link "Apply the filter GSM to narrow results" [ref=e2416] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498571111%3A100436155031&dc&qid=1770639620&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_2&ds=v1%3ANRAd71M6QAfOSlXED%2BFxZM1WCXFOpk2jO%2FOE5AmQF4A
+                    - checkbox [ref=e2419]
+                    - text: GSM
+                - listitem "Popular Shopping Ideas" [ref=e2421]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=e2423] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498571111%3A100436151031&dc&qid=1770639620&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_3&ds=v1%3ATeI6tnB6FIWRo%2BAKi%2BK9hiKOeYqJu%2Bof%2B8Kt%2FAzanL0
+                    - checkbox [ref=e2426]
+                    - text: Wi-Fi
+                - listitem "Popular Shopping Ideas" [ref=e2428]:
+                  - link "Apply the filter CDMA to narrow results" [ref=e2430] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498571111%3A100436160031&dc&qid=1770639620&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_4&ds=v1%3Ahn%2B5jrz7ya1nCn5RNRwjeqTDR77BBXwkb3PgkZmi8yo
+                    - checkbox [ref=e2433]
+                    - text: CDMA
+            - group "Material Features" [ref=e2435]:
+              - heading "Material Features" [level=2] [ref=e2436]
+              - list "Material Features" [ref=e2437]:
+                - listitem "Popular Shopping Ideas" [ref=e2438]:
+                  - link "Apply the filter Recyclable to narrow results" [ref=e2440] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015501445111%3A100427565031&dc&qid=1770639620&rnid=100427547031&ref=sr_nr_p_n_g-101015501445111_1&ds=v1%3A06VhX7RuO%2BW8Zx7aIWhN6nRhSXJzNo3jVNA2XZsWFX0
+                    - checkbox [ref=e2443]
+                    - text: Recyclable
+            - group "Supported Satellite Navigation System" [ref=e2445]:
+              - heading "Supported Satellite Navigation System" [level=2] [ref=e2446]
+              - list "Supported Satellite Navigation System" [ref=e2447]:
+                - listitem "Popular Shopping Ideas" [ref=e2448]:
+                  - link "Apply the filter GPS to narrow results" [ref=e2450] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498432111%3A100424905031&dc&qid=1770639620&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_1&ds=v1%3AQroGVjJFYAXiypsX%2BpgxgtjmzvaI0uYmiKPOQRBFZVQ
+                    - checkbox [ref=e2453]
+                    - text: GPS
+                - listitem "Popular Shopping Ideas" [ref=e2455]:
+                  - link "Apply the filter BeiDou to narrow results" [ref=e2457] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498432111%3A100424900031&dc&qid=1770639620&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_2&ds=v1%3AeEnEpv5YUOYztsn248V%2FfIgE0me70L1028vGQ6M7BNU
+                    - checkbox [ref=e2460]
+                    - text: BeiDou
+                - listitem "Popular Shopping Ideas" [ref=e2462]:
+                  - link "Apply the filter GLONASS to narrow results" [ref=e2464] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498432111%3A100424903031&dc&qid=1770639620&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_3&ds=v1%3AZWZr6uVIICA4QW5dgBxvUGprBHB8GEC2H5jaofsgXM8
+                    - checkbox [ref=e2467]
+                    - text: GLONASS
+                - listitem "Popular Shopping Ideas" [ref=e2469]:
+                  - link "Apply the filter Galileo to narrow results" [ref=e2471] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015498432111%3A100424904031&dc&qid=1770639620&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_4&ds=v1%3ApGKTszUw3wPfh3P15ovO%2BFcwtpkSiaNlHF4JuxlGfj0
+                    - checkbox [ref=e2474]
+                    - text: Galileo
+            - group "Included Components" [ref=e2476]:
+              - heading "Included Components" [level=2] [ref=e2477]
+              - list "Included Components" [ref=e2478]:
+                - listitem "Popular Shopping Ideas" [ref=e2479]:
+                  - link "Apply the filter USB Cable to narrow results" [ref=e2481] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A66008618031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_1&ds=v1%3AObYYiQo1sA8aYCeaEB2KCuMFVw25ew8uGOsgjlnJ7O4
+                    - checkbox [ref=e2484]
+                    - text: USB Cable
+                - listitem "Popular Shopping Ideas" [ref=e2486]:
+                  - link "Apply the filter Phone Case to narrow results" [ref=e2488] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A66008623031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_2&ds=v1%3A3gJEFf5tu5tKbYoCM7x%2B3Af%2FRWfgHEKiTs9K61xQNDs
+                    - checkbox [ref=e2491]
+                    - text: Phone Case
+                - listitem "Popular Shopping Ideas" [ref=e2493]:
+                  - link "Apply the filter SIM Tray Ejector to narrow results" [ref=e2495] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A66008617031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_3&ds=v1%3A2EG98iSunFB0i5mkmDchi8nlfEudmTIWgMn6YgKxFnA
+                    - checkbox [ref=e2498]
+                    - text: SIM Tray Ejector
+                - listitem "Popular Shopping Ideas" [ref=e2500]:
+                  - link "Apply the filter Power Adapter to narrow results" [ref=e2502] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A66008624031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_4&ds=v1%3AlahUio%2Fh%2FMDPbTxvR%2FA6TO2D%2Bi6QchF7z6w9jxlrMnA
+                    - checkbox [ref=e2505]
+                    - text: Power Adapter
+                - listitem "Popular Shopping Ideas" [ref=e2507]:
+                  - link "Apply the filter Headset to narrow results" [ref=e2509] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A66008621031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_5&ds=v1%3AfC0NW5%2B1hrp06iRXBrqghDIBx2u%2F1NbJgbW4Lw0ULsc
+                    - checkbox [ref=e2512]
+                    - text: Headset
+                - listitem "Popular Shopping Ideas" [ref=e2514]:
+                  - link "Apply the filter Quick Start Guide to narrow results" [ref=e2516] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101013594324111%3A213480632031&dc&qid=1770639620&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_6&ds=v1%3A71N7Se3vxxLzBvFJv3cWSGA0dxpnqMH9fHKqwxY4qeM
+                    - checkbox [ref=e2519]
+                    - text: Quick Start Guide
+            - group "Aspect Ratio" [ref=e2521]:
+              - heading "Aspect Ratio" [level=2] [ref=e2522]
+              - list "Aspect Ratio" [ref=e2523]:
+                - listitem "Popular Shopping Ideas" [ref=e2524]:
+                  - link "Apply the filter 16:9 to narrow results" [ref=e2526] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015688486111%3A204879948031&dc&qid=1770639620&rnid=204879945031&ref=sr_nr_p_n_g-101015688486111_1&ds=v1%3AoWvINaA2UG4vRQGkMpsIfM%2F22vhL4kXRDDNrFLyU4Uc
+                    - checkbox [ref=e2529]
+                    - text: 16:9
+            - group "Display Resolution" [ref=e2531]:
+              - heading "Display Resolution" [level=2] [ref=e2532]
+              - list "Display Resolution" [ref=e2533]:
+                - listitem "Popular Shopping Ideas" [ref=e2534]:
+                  - link "Apply the filter 1080 x 2400 to narrow results" [ref=e2536] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A27345186031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_1&ds=v1%3Am7aWvMh%2FZ4HjiMyAsYqCFUw5Sj5q7cTmrUhg2ALS8NU
+                    - checkbox [ref=e2539]
+                    - text: 1080 x 2400
+                - listitem "Popular Shopping Ideas" [ref=e2541]:
+                  - link "Apply the filter 1600 x 720 to narrow results" [ref=e2543] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A56611003031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_2&ds=v1%3Ax3hDDN1isQ1JwocEdw0%2BAjPcshLKl1K4SGk1AjZsBuU
+                    - checkbox [ref=e2546]
+                    - text: 1600 x 720
+                - listitem "Popular Shopping Ideas" [ref=e2548]:
+                  - link "Apply the filter 1920 x 1080 to narrow results" [ref=e2550] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A27345207031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_3&ds=v1%3AxfqQpXFRzJZG85jSxgZ9tXoJi4dOWfeA%2FT4oyjdbt5Y
+                    - checkbox [ref=e2553]
+                    - text: 1920 x 1080
+                - listitem "Popular Shopping Ideas" [ref=e2555]:
+                  - link "Apply the filter 2340 x 1080 to narrow results" [ref=e2557] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A27345192031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_4&ds=v1%3AOsIvezM5gnMRGXY0SleeMG%2F69%2BVutNBSViPu9H8vVjM
+                    - checkbox [ref=e2560]
+                    - text: 2340 x 1080
+                - listitem "Popular Shopping Ideas" [ref=e2562]:
+                  - link "Apply the filter 2400 x 1080 to narrow results" [ref=e2564] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A27345223031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_5&ds=v1%3A5inw7x4UryKe5J4uXHurgy%2BO9J%2FaZrvKLj%2B%2Fg8z%2BRvU
+                    - checkbox [ref=e2567]
+                    - text: 2400 x 1080
+                - listitem "Popular Shopping Ideas" [ref=e2569]:
+                  - link "Apply the filter 720 x 1280 to narrow results" [ref=e2571] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002090229111%3A27345229031&dc&qid=1770639620&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_6&ds=v1%3ADd3KJIjnDhH91Y3jhM9%2FZ2G0ijV%2FBeLSoqYud2RR5jg
+                    - checkbox [ref=e2574]
+                    - text: 720 x 1280
+            - group "Battery Type" [ref=e2576]:
+              - heading "Battery Type" [level=2] [ref=e2577]
+              - list "Battery Type" [ref=e2578]:
+                - listitem "Popular Shopping Ideas" [ref=e2579]:
+                  - link "Apply the filter Lithium-Ion to narrow results" [ref=e2581] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015500034111%3A100427319031&dc&qid=1770639620&rnid=100427310031&ref=sr_nr_p_n_g-101015500034111_1&ds=v1%3AR1p1Y%2F%2ByVlDOsGhVa7At7FjX1OlSRUHohxUsr%2FNz4zU
+                    - checkbox [ref=e2584]
+                    - text: Lithium-Ion
+                - listitem "Popular Shopping Ideas" [ref=e2586]:
+                  - link "Apply the filter Lithium-Polymer to narrow results" [ref=e2588] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-101015500034111%3A100427316031&dc&qid=1770639620&rnid=100427310031&ref=sr_nr_p_n_g-101015500034111_2&ds=v1%3AGpOHM5dts%2FlwnoB9CLAnuSU7ADn9ZiWNj4hN9xDgr84
+                    - checkbox [ref=e2591]
+                    - text: Lithium-Polymer
+            - group "New Arrivals" [ref=e2593]:
+              - heading "New Arrivals" [level=2] [ref=e2594]
+              - list "New Arrivals" [ref=e2595]:
+                - listitem [ref=e2596]:
+                  - link "Last 90 days" [ref=e2598] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_date_first_available_absolute%3A1318488031&dc&qid=1770639620&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AjK5EzWQv2VGtE8ANonGmcu2cDobcPFuYiN6TkV1TWlI
+            - group "Seller" [ref=e2599]:
+              - heading "Seller" [level=2] [ref=e2600]
+              - list "Seller" [ref=e2601]:
+                - listitem "Popular Shopping Ideas" [ref=e2602]:
+                  - link "Apply the filter Clicktech Retail Private Ltd to narrow results" [ref=e2604] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_6%3AAJ6SIZC8YQDZX&dc&qid=1770639620&rnid=1318474031&ref=sr_nr_p_6_1&ds=v1%3AhuDCpZ2f6IGGECR2TO6yBz96oPmDed3OQ%2BrJcZ%2Buin8
+                    - checkbox [ref=e2607]
+                    - text: Clicktech Retail Private Ltd
+                - listitem "Popular Shopping Ideas" [ref=e2609]:
+                  - link "Apply the filter Clicktech Business to narrow results" [ref=e2611] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_6%3AA34RBS7MAVZ4G4&dc&qid=1770639620&rnid=1318474031&ref=sr_nr_p_6_2&ds=v1%3AQ3r4ptVIt2ZhelAqwVcXPhBGuEiC5iwK%2FGCKQc63uzQ
+                    - checkbox [ref=e2614]
+                    - text: Clicktech Business
+                - listitem [ref=e2616]:
+                  - button "See more, Seller" [ref=e2619] [cursor=pointer]: See more
+            - group "Camera Modes" [ref=e2621]:
+              - heading "Camera Modes" [level=2] [ref=e2622]
+              - list "Camera Modes" [ref=e2623]:
+                - listitem "Popular Shopping Ideas" [ref=e2624]:
+                  - link "Apply the filter Macro to narrow results" [ref=e2626] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002252610111%3A27316769031&dc&qid=1770639620&rnid=27316761031&ref=sr_nr_p_n_g-1002252610111_1&ds=v1%3ArDOVMk4%2FGxnFDV044HigDkBvH69yTqrWS09tYk4Nd%2B4
+                    - checkbox [ref=e2629]
+                    - text: Macro
+                - listitem "Popular Shopping Ideas" [ref=e2631]:
+                  - link "Apply the filter Portrait to narrow results" [ref=e2633] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002252610111%3A27316773031&dc&qid=1770639620&rnid=27316761031&ref=sr_nr_p_n_g-1002252610111_2&ds=v1%3ArRIHtZibXXwAVcbvh%2BgcsJXrX13s50ezpqFW%2FHh9ghE
+                    - checkbox [ref=e2636]
+                    - text: Portrait
+                - listitem "Popular Shopping Ideas" [ref=e2638]:
+                  - link "Apply the filter High Dynamic Range to narrow results" [ref=e2640] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002252610111%3A27316767031&dc&qid=1770639620&rnid=27316761031&ref=sr_nr_p_n_g-1002252610111_3&ds=v1%3AMD1cycukBmrxkUnMdeoC1ZDHuuesXrm68nDCejIGgKE
+                    - checkbox [ref=e2643]
+                    - text: High Dynamic Range
+                - listitem "Popular Shopping Ideas" [ref=e2645]:
+                  - link "Apply the filter Scene to narrow results" [ref=e2647] [cursor=pointer]:
+                    - /url: /s?k=Redmi+phone&rh=p_n_g-1002252610111%3A27316775031&dc&qid=1770639620&rnid=27316761031&ref=sr_nr_p_n_g-1002252610111_4&ds=v1%3AwZv0cSiBXbFivZiaffpt%2FxTWa1%2BGeIuDxea8eaVj%2BXk
+                    - checkbox [ref=e2650]
+                    - text: Scene
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e2652]:
+    - button "Back to top" [ref=e2653] [cursor=pointer]:
+      - generic [ref=e2654]: Back to top
+    - generic [ref=e2655]:
+      - generic [ref=e2656]:
+        - heading "Get to Know Us" [level=6] [ref=e2657]
+        - list [ref=e2658]:
+          - listitem [ref=e2659]:
+            - link "About Amazon" [ref=e2660] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2661]:
+            - link "Careers" [ref=e2662] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e2663]:
+            - link "Press Releases" [ref=e2664] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2665]:
+            - link "Amazon Science" [ref=e2666] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2668]:
+        - heading "Connect with Us" [level=6] [ref=e2669]
+        - list [ref=e2670]:
+          - listitem [ref=e2671]:
+            - link "Facebook" [ref=e2672] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e2673]:
+            - link "Twitter" [ref=e2674] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e2675]:
+            - link "Instagram" [ref=e2676] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e2678]:
+        - heading "Make Money with Us" [level=6] [ref=e2679]
+        - list [ref=e2680]:
+          - listitem [ref=e2681]:
+            - link "Sell on Amazon" [ref=e2682] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e2683]:
+            - link "Sell under Amazon Accelerator" [ref=e2684] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e2685]:
+            - link "Protect and Build Your Brand" [ref=e2686] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e2687]:
+            - link "Amazon Global Selling" [ref=e2688] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e2689]:
+            - link "Supply to Amazon" [ref=e2690] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e2691]:
+            - link "Become an Affiliate" [ref=e2692] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e2693]:
+            - link "Fulfilment by Amazon" [ref=e2694] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e2695]:
+            - link "Advertise Your Products" [ref=e2696] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e2697]:
+            - link "Amazon Pay on Merchants" [ref=e2698] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e2700]:
+        - heading "Let Us Help You" [level=6] [ref=e2701]
+        - list [ref=e2702]:
+          - listitem [ref=e2703]:
+            - link "Your Account" [ref=e2704] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2705]:
+            - link "Returns Centre" [ref=e2706] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2707]:
+            - link "Recalls and Product Safety Alerts" [ref=e2708] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2709]:
+            - link "100% Purchase Protection" [ref=e2710] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e2711]:
+            - link "Amazon App Download" [ref=e2712] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e2713]:
+            - link "Help" [ref=e2714] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e2716]:
+      - link "Amazon India Home" [ref=e2719] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e2722]:
+        - generic [ref=e2723]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2724] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2726]: English
+          - button "Expand to Change Language or Country" [ref=e2727] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e2728] [cursor=pointer]:
+          - generic [ref=e2730]: India
+    - generic "More on Amazon" [ref=e2731]:
+      - generic "More on Amazon" [ref=e2732]:
+        - list [ref=e2733]:
+          - listitem [ref=e2734]:
+            - link "AbeBooks Books, art & collectibles" [ref=e2735] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e2736]
+              - generic [ref=e2737]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e2738]
+          - listitem [ref=e2739]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2740] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2741]
+              - generic [ref=e2742]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2743]
+          - listitem [ref=e2744]:
+            - link "Audible Download Audio Books" [ref=e2745] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e2746]
+              - generic [ref=e2747]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e2748]
+          - listitem [ref=e2749]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2750] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e2751]
+              - generic [ref=e2752]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e2753]:
+          - listitem [ref=e2754]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2755] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e2756]
+              - generic [ref=e2757]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e2758]
+          - listitem [ref=e2759]:
+            - link "Amazon Business Everything For Your Business" [ref=e2760] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e2761]
+              - generic [ref=e2762]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e2763]
+          - listitem [ref=e2764]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e2765] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e2766]
+              - generic [ref=e2767]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e2768]
+          - listitem [ref=e2769]
+    - generic [ref=e2770]:
+      - list [ref=e2771]:
+        - listitem [ref=e2772]:
+          - link "Conditions of Use & Sale" [ref=e2773] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e2774]:
+          - link "Privacy Notice" [ref=e2775] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e2776]:
+          - link "Interest-Based Ads" [ref=e2777] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e2778]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e2780]:
+    - iframe [ref=f2e2]:
+      - generic [active] [ref=f3e1]:
+        - img [ref=f3e2]
+        - img [ref=f3e3]
+        - img [ref=f3e4]
+        - img [ref=f3e5]
+        - img [ref=f3e6]
+        - img [ref=f3e7]
+        - img [ref=f3e8]
+        - img [ref=f3e9]
+        - img [ref=f3e10]
+        - img [ref=f3e11]
+        - img [ref=f3e12]
+        - img [ref=f3e13]
+        - img [ref=f3e14]
+        - img [ref=f3e15]
+        - img [ref=f3e16]
+        - img [ref=f3e17]
+        - img [ref=f3e18]
+        - img [ref=f3e19]
+        - img [ref=f3e20]
+        - img [ref=f3e21]
+        - img [ref=f3e22]
+        - img [ref=f3e23]
+        - img [ref=f3e24]
+        - img [ref=f3e25]
+        - img [ref=f3e26]
+        - img [ref=f3e27]
+        - img [ref=f3e28]
+        - img [ref=f3e29]
+        - img [ref=f3e30]
+        - img [ref=f3e31]
+        - img [ref=f3e32]
+        - img [ref=f3e33]
+        - img [ref=f3e34]
+        - img [ref=f3e35]
+        - img [ref=f3e36]
+        - img [ref=f3e37]
+        - img [ref=f3e38]
+        - img [ref=f3e39]
+        - img [ref=f3e40]
+```

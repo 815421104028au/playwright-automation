@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+</head>
+<body>
+
+<h2>User Registration</h2>
+
+<form id="regForm" action="result.html" method="get">
+
+  <label>
+    Name:
+    <input type="text" name="name" required>
+  </label><br><br>
+
+  <label>
+    Email:
+    <input type="email" name="email" required>
+  </label><br><br>
+
+  <label>
+    Age:
+    <input type="number" name="age" min="18" required>
+  </label><br><br>
+
+  <label>
+    Gender:
+    <select name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+  </label><br><br>
+
+  <label>
+    <input type="checkbox" name="terms" required>
+    I agree to the Terms & Conditions
+  </label><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  document.getElementById('regForm').addEventListener('submit', function (e) {
+
+    // Checkbox validation
+    if (!this.terms.checked) {
+      alert('You must accept the Terms & Conditions');
+      e.preventDefault();
+      return;
+    }
+
+    // Confirmation popup
+    if (!confirm('Are you sure you want to submit the form?')) {
+      e.preventDefault();
+    }
+  });
+</script>
+
+</body>
+</html>
