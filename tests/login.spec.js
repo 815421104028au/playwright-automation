@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { text } from 'node:stream/consumers';
 
 test('Bikewale site test', async ({ page }) => {
   await page.goto('https://www.bikewale.com/');
@@ -8,7 +9,7 @@ test('Bikewale site test', async ({ page }) => {
   const searchBox = page.getByPlaceholder('Search your bike here, e.g. Royal Enfield Hunter 350');
   console.log("2 locator found or loaded");
   //await expect(searchBox).toBeVisible();
-await searchBox.fill('Royol enfield');
+await searchBox.type({text:'Royol enfield'});
 const searchbtn=page.locator('button:has-text("search")');
 await searchbtn.click();
 await expect(page).toHaveURL('https://www.bikewale.com/best-bikes-in-india/');
