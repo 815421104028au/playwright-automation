@@ -1,0 +1,1212 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "BikeWale" [ref=e11] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e12]:
+        - generic "Search" [ref=e13] [cursor=pointer]:
+          - generic [ref=e17]:
+            - textbox "Input field" [ref=e18]:
+              - /placeholder: Search
+            - img [ref=e20]
+        - generic "Location" [ref=e22] [cursor=pointer]:
+          - img [ref=e24]
+        - img [ref=e27]
+        - generic [ref=e29]: Log In
+  - generic [ref=e30]:
+    - generic [ref=e34]:
+      - heading "FIND THE RIGHT BIKE" [level=1] [ref=e35]
+      - heading "Get Comprehensive Information on Bikes!" [level=2] [ref=e36]
+      - generic [ref=e37]:
+        - generic [ref=e42]:
+          - img [ref=e44]
+          - textbox "Input field" [ref=e46]:
+            - /placeholder: Search your bike here, e.g. Royal Enfield Bullet 350
+        - button "Search" [ref=e47] [cursor=pointer]
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Featured Bikes" [level=2] [ref=e51]
+        - generic [ref=e53]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - generic [ref=e59] [cursor=pointer]: Trending
+            - listitem [ref=e61]:
+              - generic [ref=e63] [cursor=pointer]: Popular
+            - listitem [ref=e64]:
+              - generic [ref=e66] [cursor=pointer]: Electric
+            - listitem [ref=e67]:
+              - generic [ref=e69] [cursor=pointer]: Upcoming
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e77]:
+                - generic [ref=e82]:
+                  - generic "Royal Enfield Bullet 350" [ref=e83]:
+                    - img "Royal Enfield Bullet 350" [ref=e85]
+                  - generic [ref=e86]:
+                    - link "Royal Enfield Bullet 350" [ref=e87] [cursor=pointer]:
+                      - /url: /royalenfield-bikes/bullet/
+                      - generic [ref=e88]: Royal Enfield Bullet 350
+                    - generic [ref=e90]:
+                      - text: ₹ 1,63,503
+                      - generic [ref=e91]: Onwards
+                    - generic [ref=e92]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e93] [cursor=pointer]
+                - generic [ref=e98]:
+                  - generic "Royal Enfield Hunter 350" [ref=e99]:
+                    - img "Royal Enfield Hunter 350" [ref=e101]
+                  - generic [ref=e102]:
+                    - link "Royal Enfield Hunter 350" [ref=e103] [cursor=pointer]:
+                      - /url: /royalenfield-bikes/hunter-350/
+                      - generic [ref=e104]: Royal Enfield Hunter 350
+                    - generic [ref=e106]:
+                      - text: ₹ 1,37,648
+                      - generic [ref=e107]: Onwards
+                    - generic [ref=e108]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e109] [cursor=pointer]
+                - generic [ref=e114]:
+                  - generic "Royal Enfield Classic 350" [ref=e115]:
+                    - img "Royal Enfield Classic 350" [ref=e117]
+                  - generic [ref=e118]:
+                    - link "Royal Enfield Classic 350" [ref=e119] [cursor=pointer]:
+                      - /url: /royalenfield-bikes/classic-350/
+                      - generic [ref=e120]: Royal Enfield Classic 350
+                    - generic [ref=e122]:
+                      - text: ₹ 1,82,667
+                      - generic [ref=e123]: Onwards
+                    - generic [ref=e124]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e125] [cursor=pointer]
+                - generic [ref=e130]:
+                  - generic "Royal Enfield Continental GT 650" [ref=e131]:
+                    - img "Royal Enfield Continental GT 650" [ref=e133]
+                  - generic [ref=e134]:
+                    - link "Royal Enfield Continental GT 650" [ref=e135] [cursor=pointer]:
+                      - /url: /royalenfield-bikes/continental-gt/
+                      - generic [ref=e136]: Royal Enfield Continental GT 650
+                    - generic [ref=e138]:
+                      - text: ₹ 3,52,686
+                      - generic [ref=e139]: Onwards
+                    - generic [ref=e140]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e141] [cursor=pointer]
+                - generic [ref=e146]:
+                  - generic "Yamaha MT 15 V2" [ref=e147]:
+                    - img "Yamaha MT 15 V2" [ref=e149]
+                  - generic [ref=e150]:
+                    - link "Yamaha MT 15 V2" [ref=e151] [cursor=pointer]:
+                      - /url: /yamaha-bikes/mt-15/
+                      - generic [ref=e152]: Yamaha MT 15 V2
+                    - generic [ref=e154]:
+                      - text: ₹ 1,59,195
+                      - generic [ref=e155]: Onwards
+                    - generic [ref=e156]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e157] [cursor=pointer]
+                - generic [ref=e162]:
+                  - generic "Yamaha R15 V4" [ref=e163]:
+                    - img "Yamaha R15 V4" [ref=e165]
+                  - generic [ref=e166]:
+                    - link "Yamaha R15 V4" [ref=e167] [cursor=pointer]:
+                      - /url: /yamaha-bikes/r15/
+                      - generic [ref=e168]: Yamaha R15 V4
+                    - generic [ref=e170]:
+                      - text: ₹ 1,67,085
+                      - generic [ref=e171]: Onwards
+                    - generic [ref=e172]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e173] [cursor=pointer]
+                - generic [ref=e178]:
+                  - generic "Bajaj Pulsar N160" [ref=e179]:
+                    - img "Bajaj Pulsar N160" [ref=e181]
+                  - generic [ref=e182]:
+                    - link "Bajaj Pulsar N160" [ref=e183] [cursor=pointer]:
+                      - /url: /bajaj-bikes/pulsar-n160/
+                      - generic [ref=e184]: Bajaj Pulsar N160
+                    - generic [ref=e186]:
+                      - text: ₹ 1,14,380
+                      - generic [ref=e187]: Onwards
+                    - generic [ref=e188]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e189] [cursor=pointer]
+                - generic [ref=e194]:
+                  - generic "Hero Xtreme 125R" [ref=e195]:
+                    - img "Hero Xtreme 125R" [ref=e197]
+                  - generic [ref=e198]:
+                    - link "Hero Xtreme 125R" [ref=e199] [cursor=pointer]:
+                      - /url: /hero-bikes/xtreme-125r/
+                      - generic [ref=e200]: Hero Xtreme 125R
+                    - generic [ref=e202]:
+                      - text: ₹ 90,674
+                      - generic [ref=e203]: Onwards
+                    - generic [ref=e204]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e205] [cursor=pointer]
+                - generic [ref=e210]:
+                  - generic "Honda SP 125" [ref=e211]:
+                    - img "Honda SP 125" [ref=e213]
+                  - generic [ref=e214]:
+                    - link "Honda SP 125" [ref=e215] [cursor=pointer]:
+                      - /url: /honda-bikes/sp-125/
+                      - generic [ref=e216]: Honda SP 125
+                    - generic [ref=e218]:
+                      - text: ₹ 88,750
+                      - generic [ref=e219]: Onwards
+                    - generic [ref=e220]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e221] [cursor=pointer]
+              - img [ref=e223] [cursor=pointer]
+            - link "All Trending Bikes" [ref=e225] [cursor=pointer]:
+              - /url: /new-bikes-in-india/
+              - generic [ref=e226]: All Trending Bikes
+              - img [ref=e227]
+      - generic [ref=e229]:
+        - heading "Get Offers on Popular Bikes" [level=2] [ref=e231]
+        - generic [ref=e234]:
+          - generic [ref=e237]:
+            - generic [ref=e242]:
+              - generic "River Indie" [ref=e243]:
+                - img "River Indie" [ref=e245]
+              - generic [ref=e246]:
+                - link "River Indie" [ref=e247] [cursor=pointer]:
+                  - /url: /river-bikes/indie/
+                  - generic [ref=e248]: River Indie
+                - generic [ref=e250]:
+                  - text: ₹ 1,46,124
+                  - generic [ref=e251]: Onwards
+                - separator [ref=e252]
+                - generic [ref=e254]: Get Best Offer
+            - generic [ref=e259]:
+              - generic "Hero Xtreme 125R" [ref=e260]:
+                - img "Hero Xtreme 125R" [ref=e262]
+              - generic [ref=e263]:
+                - link "Hero Xtreme 125R" [ref=e264] [cursor=pointer]:
+                  - /url: /hero-bikes/xtreme-125r/
+                  - generic [ref=e265]: Hero Xtreme 125R
+                - generic [ref=e267]:
+                  - text: ₹ 90,674
+                  - generic [ref=e268]: Onwards
+                - separator [ref=e269]
+                - generic [ref=e271]: Get Best Offer
+            - generic [ref=e276]:
+              - generic "Hero Xtreme 160R" [ref=e277]:
+                - img "Hero Xtreme 160R" [ref=e279]
+              - generic [ref=e280]:
+                - link "Hero Xtreme 160R" [ref=e281] [cursor=pointer]:
+                  - /url: /hero-bikes/xtreme/
+                  - generic [ref=e282]: Hero Xtreme 160R
+                - generic [ref=e284]:
+                  - text: ₹ 1,04,549
+                  - generic [ref=e285]: Onwards
+                - separator [ref=e286]
+                - generic [ref=e288]: Get Best Offer
+            - generic [ref=e293]:
+              - generic "Ather Rizta" [ref=e294]:
+                - img "Ather Rizta" [ref=e296]
+              - generic [ref=e297]:
+                - link "Ather Rizta" [ref=e298] [cursor=pointer]:
+                  - /url: /ather-bikes/rizta/
+                  - generic [ref=e299]: Ather Rizta
+                - generic [ref=e301]:
+                  - text: ₹ 1,11,805
+                  - generic [ref=e302]: Onwards
+                - separator [ref=e303]
+                - generic [ref=e305]: Get Best Offer
+            - generic [ref=e310]:
+              - generic "TVS Jupiter 125" [ref=e311]:
+                - img "TVS Jupiter 125" [ref=e313]
+              - generic [ref=e314]:
+                - link "TVS Jupiter 125" [ref=e315] [cursor=pointer]:
+                  - /url: /tvs-bikes/jupiter-125/
+                  - generic [ref=e316]: TVS Jupiter 125
+                - generic [ref=e318]:
+                  - text: ₹ 83,040
+                  - generic [ref=e319]: Onwards
+                - separator [ref=e320]
+                - generic [ref=e322]: Get Best Offer
+            - generic [ref=e327]:
+              - generic "Royal Enfield Classic 350" [ref=e328]:
+                - img "Royal Enfield Classic 350" [ref=e330]
+              - generic [ref=e331]:
+                - link "Royal Enfield Classic 350" [ref=e332] [cursor=pointer]:
+                  - /url: /royalenfield-bikes/classic-350/
+                  - generic [ref=e333]: Royal Enfield Classic 350
+                - generic [ref=e335]:
+                  - text: ₹ 1,82,667
+                  - generic [ref=e336]: Onwards
+                - separator [ref=e337]
+                - generic [ref=e339]: Get Best Offer
+            - generic [ref=e344]:
+              - generic "OLA S1 X" [ref=e345]:
+                - img "OLA S1 X" [ref=e347]
+              - generic [ref=e348]:
+                - link "OLA S1 X" [ref=e349] [cursor=pointer]:
+                  - /url: /ola-bikes/s1-x/
+                  - generic [ref=e350]: OLA S1 X
+                - generic [ref=e352]:
+                  - text: ₹ 90,236
+                  - generic [ref=e353]: Onwards
+                - separator [ref=e354]
+                - generic [ref=e356]: Get Best Offer
+            - generic [ref=e361]:
+              - generic "OLA Roadster" [ref=e362]:
+                - img "OLA Roadster" [ref=e364]
+              - generic [ref=e365]:
+                - link "OLA Roadster" [ref=e366] [cursor=pointer]:
+                  - /url: /ola-bikes/roadster/
+                  - generic [ref=e367]: OLA Roadster
+                - generic [ref=e369]:
+                  - text: ₹ 1,04,999
+                  - generic [ref=e370]: Onwards
+                - separator [ref=e371]
+                - generic [ref=e373]: Get Best Offer
+            - generic [ref=e378]:
+              - generic "Bajaj Pulsar 125" [ref=e379]:
+                - img "Bajaj Pulsar 125" [ref=e381]
+              - generic [ref=e382]:
+                - link "Bajaj Pulsar 125" [ref=e383] [cursor=pointer]:
+                  - /url: /bajaj-bikes/pulsar-125/
+                  - generic [ref=e384]: Bajaj Pulsar 125
+                - generic [ref=e386]:
+                  - text: ₹ 85,988
+                  - generic [ref=e387]: Onwards
+                - separator [ref=e388]
+                - generic [ref=e390]: Get Best Offer
+          - img [ref=e392] [cursor=pointer]
+      - generic [ref=e394]:
+        - heading "Browse Bikes By" [level=2] [ref=e396]
+        - generic [ref=e398]:
+          - list [ref=e401]:
+            - listitem [ref=e402]:
+              - generic [ref=e404] [cursor=pointer]: Brand
+            - listitem [ref=e406]:
+              - generic [ref=e408] [cursor=pointer]: Budget
+            - listitem [ref=e409]:
+              - generic [ref=e411] [cursor=pointer]: Displacement
+            - listitem [ref=e412]:
+              - generic [ref=e414] [cursor=pointer]: Body Style
+          - generic [ref=e419]:
+            - list [ref=e422]:
+              - listitem [ref=e423]:
+                - link "Royal Enfield Bikes Royal Enfield" [ref=e424] [cursor=pointer]:
+                  - /url: /royalenfield-bikes/
+                  - img "Royal Enfield Bikes" [ref=e427]
+                  - generic [ref=e428]: Royal Enfield
+              - listitem [ref=e429]:
+                - link "Bajaj Bikes Bajaj" [ref=e430] [cursor=pointer]:
+                  - /url: /bajaj-bikes/
+                  - img "Bajaj Bikes" [ref=e433]
+                  - generic [ref=e434]: Bajaj
+              - listitem [ref=e435]:
+                - link "TVS Bikes TVS" [ref=e436] [cursor=pointer]:
+                  - /url: /tvs-bikes/
+                  - img "TVS Bikes" [ref=e439]
+                  - generic [ref=e440]: TVS
+              - listitem [ref=e441]:
+                - link "Honda Bikes Honda" [ref=e442] [cursor=pointer]:
+                  - /url: /honda-bikes/
+                  - img "Honda Bikes" [ref=e445]
+                  - generic [ref=e446]: Honda
+              - listitem [ref=e447]:
+                - link "Yamaha Bikes Yamaha" [ref=e448] [cursor=pointer]:
+                  - /url: /yamaha-bikes/
+                  - img "Yamaha Bikes" [ref=e451]
+                  - generic [ref=e452]: Yamaha
+              - listitem [ref=e453]:
+                - link "Hero Bikes Hero" [ref=e454] [cursor=pointer]:
+                  - /url: /hero-bikes/
+                  - img "Hero Bikes" [ref=e457]
+                  - generic [ref=e458]: Hero
+              - listitem [ref=e459]:
+                - link "KTM Bikes KTM" [ref=e460] [cursor=pointer]:
+                  - /url: /ktm-bikes/
+                  - img "KTM Bikes" [ref=e463]
+                  - generic [ref=e464]: KTM
+              - listitem [ref=e465]:
+                - link "Triumph Bikes Triumph" [ref=e466] [cursor=pointer]:
+                  - /url: /triumph-bikes/
+                  - img "Triumph Bikes" [ref=e469]
+                  - generic [ref=e470]: Triumph
+              - listitem [ref=e471]:
+                - link "Kawasaki Bikes Kawasaki" [ref=e472] [cursor=pointer]:
+                  - /url: /kawasaki-bikes/
+                  - img "Kawasaki Bikes" [ref=e475]
+                  - generic [ref=e476]: Kawasaki
+              - listitem [ref=e477]:
+                - link "Suzuki Bikes Suzuki" [ref=e478] [cursor=pointer]:
+                  - /url: /suzuki-bikes/
+                  - img "Suzuki Bikes" [ref=e481]
+                  - generic [ref=e482]: Suzuki
+              - listitem [ref=e483]:
+                - link "Ampere Bikes Ampere" [ref=e484] [cursor=pointer]:
+                  - /url: /ampere-bikes/
+                  - img "Ampere Bikes" [ref=e487]
+                  - generic [ref=e488]: Ampere
+              - listitem [ref=e489]:
+                - link "Aprilia Bikes Aprilia" [ref=e490] [cursor=pointer]:
+                  - /url: /aprilia-bikes/
+                  - img "Aprilia Bikes" [ref=e493]
+                  - generic [ref=e494]: Aprilia
+              - listitem [ref=e495]:
+                - link "Ather Bikes Ather" [ref=e496] [cursor=pointer]:
+                  - /url: /ather-bikes/
+                  - img "Ather Bikes" [ref=e499]
+                  - generic [ref=e500]: Ather
+              - listitem [ref=e501]:
+                - link "Benelli Bikes Benelli" [ref=e502] [cursor=pointer]:
+                  - /url: /benelli-bikes/
+                  - img "Benelli Bikes" [ref=e505]
+                  - generic [ref=e506]: Benelli
+              - listitem [ref=e507]:
+                - link "BGauss Bikes BGauss" [ref=e508] [cursor=pointer]:
+                  - /url: /bgauss-bikes/
+                  - img "BGauss Bikes" [ref=e511]
+                  - generic [ref=e512]: BGauss
+              - listitem [ref=e513]:
+                - link "BMW Bikes BMW" [ref=e514] [cursor=pointer]:
+                  - /url: /bmw-bikes/
+                  - img "BMW Bikes" [ref=e517]
+                  - generic [ref=e518]: BMW
+              - listitem [ref=e519]:
+                - link "Bounce Bikes Bounce" [ref=e520] [cursor=pointer]:
+                  - /url: /bounce-bikes/
+                  - img "Bounce Bikes" [ref=e523]
+                  - generic [ref=e524]: Bounce
+              - listitem [ref=e525]:
+                - link "Brixton Motorcycles Bikes Brixton Motorcycles" [ref=e526] [cursor=pointer]:
+                  - /url: /brixton-motorcycles-bikes/
+                  - img "Brixton Motorcycles Bikes" [ref=e529]
+                  - generic [ref=e530]: Brixton Motorcycles
+              - listitem [ref=e531]:
+                - link "BSA Bikes BSA" [ref=e532] [cursor=pointer]:
+                  - /url: /bsa-bikes/
+                  - img "BSA Bikes" [ref=e535]
+                  - generic [ref=e536]: BSA
+              - listitem [ref=e537]:
+                - link "CFMoto Bikes CFMoto" [ref=e538] [cursor=pointer]:
+                  - /url: /cfmoto-bikes/
+                  - img "CFMoto Bikes" [ref=e541]
+                  - generic [ref=e542]: CFMoto
+              - listitem [ref=e543]:
+                - link "Ducati Bikes Ducati" [ref=e544] [cursor=pointer]:
+                  - /url: /ducati-bikes/
+                  - img "Ducati Bikes" [ref=e547]
+                  - generic [ref=e548]: Ducati
+              - listitem [ref=e549]:
+                - link "Evolet Bikes Evolet" [ref=e550] [cursor=pointer]:
+                  - /url: /evolet-bikes/
+                  - img "Evolet Bikes" [ref=e553]
+                  - generic [ref=e554]: Evolet
+              - listitem [ref=e555]:
+                - link "Ferrato Bikes Ferrato" [ref=e556] [cursor=pointer]:
+                  - /url: /ferrato-bikes/
+                  - img "Ferrato Bikes" [ref=e559]
+                  - generic [ref=e560]: Ferrato
+              - listitem [ref=e561]:
+                - link "Gemopai Bikes Gemopai" [ref=e562] [cursor=pointer]:
+                  - /url: /gemopai-bikes/
+                  - img "Gemopai Bikes" [ref=e565]
+                  - generic [ref=e566]: Gemopai
+              - listitem [ref=e567]:
+                - link "Harley-Davidson Bikes Harley-Davidson" [ref=e568] [cursor=pointer]:
+                  - /url: /harleydavidson-bikes/
+                  - img "Harley-Davidson Bikes" [ref=e571]
+                  - generic [ref=e572]: Harley-Davidson
+              - listitem [ref=e573]:
+                - link "Hop Electric Bikes Hop Electric" [ref=e574] [cursor=pointer]:
+                  - /url: /hop-electric-bikes/
+                  - img "Hop Electric Bikes" [ref=e577]
+                  - generic [ref=e578]: Hop Electric
+              - listitem [ref=e579]:
+                - link "Husqvarna Bikes Husqvarna" [ref=e580] [cursor=pointer]:
+                  - /url: /husqvarna-bikes/
+                  - img "Husqvarna Bikes" [ref=e583]
+                  - generic [ref=e584]: Husqvarna
+              - listitem [ref=e585]:
+                - link "Indian Bikes Indian" [ref=e586] [cursor=pointer]:
+                  - /url: /indian-bikes/
+                  - img "Indian Bikes" [ref=e589]
+                  - generic [ref=e590]: Indian
+              - listitem [ref=e591]:
+                - link "iVOOMi Bikes iVOOMi" [ref=e592] [cursor=pointer]:
+                  - /url: /ivoomi-bikes/
+                  - img "iVOOMi Bikes" [ref=e595]
+                  - generic [ref=e596]: iVOOMi
+              - listitem [ref=e597]:
+                - link "Jawa Bikes Jawa" [ref=e598] [cursor=pointer]:
+                  - /url: /jawa-bikes/
+                  - img "Jawa Bikes" [ref=e601]
+                  - generic [ref=e602]: Jawa
+              - listitem [ref=e603]:
+                - link "Joy e-bike Bikes Joy e-bike" [ref=e604] [cursor=pointer]:
+                  - /url: /joyebike-bikes/
+                  - img "Joy e-bike Bikes" [ref=e607]
+                  - generic [ref=e608]: Joy e-bike
+              - listitem [ref=e609]:
+                - link "Keeway Bikes Keeway" [ref=e610] [cursor=pointer]:
+                  - /url: /keeway-bikes/
+                  - img "Keeway Bikes" [ref=e613]
+                  - generic [ref=e614]: Keeway
+              - listitem [ref=e615]:
+                - link "Kinetic Bikes Kinetic" [ref=e616] [cursor=pointer]:
+                  - /url: /kinetic-bikes/
+                  - img "Kinetic Bikes" [ref=e619]
+                  - generic [ref=e620]: Kinetic
+              - listitem [ref=e621]:
+                - link "Kinetic Green Bikes Kinetic Green" [ref=e622] [cursor=pointer]:
+                  - /url: /kinetic-green-bikes/
+                  - img "Kinetic Green Bikes" [ref=e625]
+                  - generic [ref=e626]: Kinetic Green
+              - listitem [ref=e627]:
+                - link "Lambretta Bikes Lambretta" [ref=e628] [cursor=pointer]:
+                  - /url: /lambretta-bikes/
+                  - img "Lambretta Bikes" [ref=e631]
+                  - generic [ref=e632]: Lambretta
+              - listitem [ref=e633]:
+                - link "Lectrix Bikes Lectrix" [ref=e634] [cursor=pointer]:
+                  - /url: /lectrix-bikes/
+                  - img "Lectrix Bikes" [ref=e637]
+                  - generic [ref=e638]: Lectrix
+              - listitem [ref=e639]:
+                - link "Matter Bikes Matter" [ref=e640] [cursor=pointer]:
+                  - /url: /matter-bikes/
+                  - img "Matter Bikes" [ref=e643]
+                  - generic [ref=e644]: Matter
+              - listitem [ref=e645]:
+                - link "Moto Guzzi Bikes Moto Guzzi" [ref=e646] [cursor=pointer]:
+                  - /url: /motoguzzi-bikes/
+                  - img "Moto Guzzi Bikes" [ref=e649]
+                  - generic [ref=e650]: Moto Guzzi
+              - listitem [ref=e651]:
+                - link "Moto Morini Bikes Moto Morini" [ref=e652] [cursor=pointer]:
+                  - /url: /motomorini-bikes/
+                  - img "Moto Morini Bikes" [ref=e655]
+                  - generic [ref=e656]: Moto Morini
+              - listitem [ref=e657]:
+                - link "Norton Bikes Norton" [ref=e658] [cursor=pointer]:
+                  - /url: /norton-bikes/
+                  - img "Norton Bikes" [ref=e661]
+                  - generic [ref=e662]: Norton
+              - listitem [ref=e663]:
+                - link "Numeros Bikes Numeros" [ref=e664] [cursor=pointer]:
+                  - /url: /numeros-bikes/
+                  - img "Numeros Bikes" [ref=e667]
+                  - generic [ref=e668]: Numeros
+              - listitem [ref=e669]:
+                - link "Oben Bikes Oben" [ref=e670] [cursor=pointer]:
+                  - /url: /oben-bikes/
+                  - img "Oben Bikes" [ref=e673]
+                  - generic [ref=e674]: Oben
+              - listitem [ref=e675]:
+                - link "Odysse Bikes Odysse" [ref=e676] [cursor=pointer]:
+                  - /url: /odysse-bikes/
+                  - img "Odysse Bikes" [ref=e679]
+                  - generic [ref=e680]: Odysse
+              - listitem [ref=e681]:
+                - link "Okinawa Bikes Okinawa" [ref=e682] [cursor=pointer]:
+                  - /url: /okinawa-bikes/
+                  - img "Okinawa Bikes" [ref=e685]
+                  - generic [ref=e686]: Okinawa
+              - listitem [ref=e687]:
+                - link "OLA Bikes OLA" [ref=e688] [cursor=pointer]:
+                  - /url: /ola-bikes/
+                  - img "OLA Bikes" [ref=e691]
+                  - generic [ref=e692]: OLA
+              - listitem [ref=e693]:
+                - link "OPG Mobility Bikes OPG Mobility" [ref=e694] [cursor=pointer]:
+                  - /url: /opg-mobility-bikes/
+                  - img "OPG Mobility Bikes" [ref=e697]
+                  - generic [ref=e698]: OPG Mobility
+              - listitem [ref=e699]:
+                - link "PURE EV Bikes PURE EV" [ref=e700] [cursor=pointer]:
+                  - /url: /pureev-bikes/
+                  - img "PURE EV Bikes" [ref=e703]
+                  - generic [ref=e704]: PURE EV
+              - listitem [ref=e705]:
+                - link "QJ Motor Bikes QJ Motor" [ref=e706] [cursor=pointer]:
+                  - /url: /qjmotor-bikes/
+                  - img "QJ Motor Bikes" [ref=e709]
+                  - generic [ref=e710]: QJ Motor
+              - listitem [ref=e711]:
+                - link "Quantum Energy Bikes Quantum Energy" [ref=e712] [cursor=pointer]:
+                  - /url: /quantum-energy-bikes/
+                  - img "Quantum Energy Bikes" [ref=e715]
+                  - generic [ref=e716]: Quantum Energy
+              - listitem [ref=e717]:
+                - link "Revolt Bikes Revolt" [ref=e718] [cursor=pointer]:
+                  - /url: /revolt-bikes/
+                  - img "Revolt Bikes" [ref=e721]
+                  - generic [ref=e722]: Revolt
+              - listitem [ref=e723]:
+                - link "River Bikes River" [ref=e724] [cursor=pointer]:
+                  - /url: /river-bikes/
+                  - img "River Bikes" [ref=e727]
+                  - generic [ref=e728]: River
+              - listitem [ref=e729]:
+                - link "Simple Energy Bikes Simple Energy" [ref=e730] [cursor=pointer]:
+                  - /url: /simple-energy-bikes/
+                  - img "Simple Energy Bikes" [ref=e733]
+                  - generic [ref=e734]: Simple Energy
+              - listitem [ref=e735]:
+                - link "Ultraviolette Bikes Ultraviolette" [ref=e736] [cursor=pointer]:
+                  - /url: /ultraviolette-bikes/
+                  - img "Ultraviolette Bikes" [ref=e739]
+                  - generic [ref=e740]: Ultraviolette
+              - listitem [ref=e741]:
+                - link "Vespa Bikes Vespa" [ref=e742] [cursor=pointer]:
+                  - /url: /vespa-bikes/
+                  - img "Vespa Bikes" [ref=e745]
+                  - generic [ref=e746]: Vespa
+              - listitem [ref=e747]:
+                - link "VIDA Bikes VIDA" [ref=e748] [cursor=pointer]:
+                  - /url: /vida-bikes/
+                  - img "VIDA Bikes" [ref=e751]
+                  - generic [ref=e752]: VIDA
+              - listitem [ref=e753]:
+                - link "Vinfast Bikes Vinfast" [ref=e754] [cursor=pointer]:
+                  - /url: /vinfast-bikes/
+                  - img "Vinfast Bikes" [ref=e757]
+                  - generic [ref=e758]: Vinfast
+              - listitem [ref=e759]:
+                - link "VLF Bikes VLF" [ref=e760] [cursor=pointer]:
+                  - /url: /vlf-bikes/
+                  - img "VLF Bikes" [ref=e763]
+                  - generic [ref=e764]: VLF
+              - listitem [ref=e765]:
+                - link "Yezdi Bikes Yezdi" [ref=e766] [cursor=pointer]:
+                  - /url: /yezdi-bikes/
+                  - img "Yezdi Bikes" [ref=e769]
+                  - generic [ref=e770]: Yezdi
+              - listitem [ref=e771]:
+                - link "Yo Bikes Yo" [ref=e772] [cursor=pointer]:
+                  - /url: /yo-bikes/
+                  - img "Yo Bikes" [ref=e775]
+                  - generic [ref=e776]: Yo
+              - listitem [ref=e777]:
+                - link "Zontes Bikes Zontes" [ref=e778] [cursor=pointer]:
+                  - /url: /zontes-bikes/
+                  - img "Zontes Bikes" [ref=e781]
+                  - generic [ref=e782]: Zontes
+            - button "[object Object]" [ref=e783] [cursor=pointer]: View More Brands
+    - generic [ref=e789]:
+      - heading "Check On-Road Price" [level=2] [ref=e790]
+      - generic [ref=e794]:
+        - img [ref=e796]
+        - textbox "Input field" [ref=e797]:
+          - /placeholder: "Type to select bike Name, eg: Royal Enfield Bullet 350"
+      - generic [ref=e798]:
+        - generic [ref=e799]: Select City
+        - img [ref=e800]
+      - generic [ref=e801]: Check the on road price in your city
+    - generic [ref=e802]:
+      - generic [ref=e804]:
+        - heading "Trending Bikes of February 2026" [level=2] [ref=e806]
+        - generic [ref=e808]:
+          - list [ref=e811]:
+            - listitem [ref=e812]:
+              - generic [ref=e814] [cursor=pointer]: Scooters
+            - listitem [ref=e816]:
+              - generic [ref=e818] [cursor=pointer]: Best Mileage Bikes
+            - listitem [ref=e819]:
+              - generic [ref=e821] [cursor=pointer]: Sports
+            - listitem [ref=e822]:
+              - generic [ref=e824] [cursor=pointer]: Cruisers
+          - generic [ref=e828]:
+            - generic [ref=e829]:
+              - generic [ref=e832]:
+                - generic [ref=e836]:
+                  - generic "Honda Activa" [ref=e837]:
+                    - img "Honda Activa" [ref=e839]
+                  - generic [ref=e840]:
+                    - link "Honda Activa" [ref=e841] [cursor=pointer]:
+                      - /url: /honda-bikes/activa-6g/
+                      - generic [ref=e842]: Honda Activa
+                    - generic [ref=e844]:
+                      - text: ₹ 78,004
+                      - generic [ref=e845]: Onwards
+                    - generic [ref=e846]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e847] [cursor=pointer]
+                - generic [ref=e851]:
+                  - generic "Suzuki Access 125" [ref=e852]:
+                    - img "Suzuki Access 125" [ref=e854]
+                  - generic [ref=e855]:
+                    - link "Suzuki Access 125" [ref=e856] [cursor=pointer]:
+                      - /url: /suzuki-bikes/access-125/
+                      - generic [ref=e857]: Suzuki Access 125
+                    - generic [ref=e859]:
+                      - text: ₹ 80,643
+                      - generic [ref=e860]: Onwards
+                    - generic [ref=e861]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e862] [cursor=pointer]
+                - generic [ref=e866]:
+                  - generic "TVS Ntorq 125" [ref=e867]:
+                    - img "TVS Ntorq 125" [ref=e869]
+                  - generic [ref=e870]:
+                    - link "TVS Ntorq 125" [ref=e871] [cursor=pointer]:
+                      - /url: /tvs-bikes/ntorq-125/
+                      - generic [ref=e872]: TVS Ntorq 125
+                    - generic [ref=e874]:
+                      - text: ₹ 87,937
+                      - generic [ref=e875]: Onwards
+                    - generic [ref=e876]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e877] [cursor=pointer]
+                - generic [ref=e881]:
+                  - generic "Bajaj Chetak" [ref=e882]:
+                    - img "Bajaj Chetak" [ref=e884]
+                    - generic [ref=e886]:
+                      - img [ref=e888]
+                      - generic [ref=e889]: EV
+                  - generic [ref=e890]:
+                    - link "Bajaj Chetak" [ref=e891] [cursor=pointer]:
+                      - /url: /bajaj-bikes/chetak/
+                      - generic [ref=e892]: Bajaj Chetak
+                    - generic [ref=e894]:
+                      - text: ₹ 1,02,468
+                      - generic [ref=e895]: Onwards
+                    - generic [ref=e896]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e897] [cursor=pointer]
+                - generic [ref=e901]:
+                  - generic "TVS Jupiter 125" [ref=e902]:
+                    - img "TVS Jupiter 125" [ref=e904]
+                  - generic [ref=e905]:
+                    - link "TVS Jupiter 125" [ref=e906] [cursor=pointer]:
+                      - /url: /tvs-bikes/jupiter-125/
+                      - generic [ref=e907]: TVS Jupiter 125
+                    - generic [ref=e909]:
+                      - text: ₹ 83,040
+                      - generic [ref=e910]: Onwards
+                    - generic [ref=e911]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e912] [cursor=pointer]
+                - generic [ref=e916]:
+                  - generic "TVS Jupiter" [ref=e917]:
+                    - img "TVS Jupiter" [ref=e919]
+                  - generic [ref=e920]:
+                    - link "TVS Jupiter" [ref=e921] [cursor=pointer]:
+                      - /url: /tvs-bikes/jupiter/
+                      - generic [ref=e922]: TVS Jupiter
+                    - generic [ref=e924]:
+                      - text: ₹ 76,543
+                      - generic [ref=e925]: Onwards
+                    - generic [ref=e926]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e927] [cursor=pointer]
+                - generic [ref=e931]:
+                  - generic "Ather Rizta" [ref=e932]:
+                    - img "Ather Rizta" [ref=e934]
+                    - generic [ref=e936]:
+                      - img [ref=e938]
+                      - generic [ref=e939]: EV
+                  - generic [ref=e940]:
+                    - link "Ather Rizta" [ref=e941] [cursor=pointer]:
+                      - /url: /ather-bikes/rizta/
+                      - generic [ref=e942]: Ather Rizta
+                    - generic [ref=e944]:
+                      - text: ₹ 1,11,805
+                      - generic [ref=e945]: Onwards
+                    - generic [ref=e946]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e947] [cursor=pointer]
+                - generic [ref=e951]:
+                  - generic "Honda Activa 125" [ref=e952]:
+                    - img "Honda Activa 125" [ref=e954]
+                  - generic [ref=e955]:
+                    - link "Honda Activa 125" [ref=e956] [cursor=pointer]:
+                      - /url: /honda-bikes/activa-125/
+                      - generic [ref=e957]: Honda Activa 125
+                    - generic [ref=e959]:
+                      - text: ₹ 92,297
+                      - generic [ref=e960]: Onwards
+                    - generic [ref=e961]: Avg. Ex-Showroom price
+                    - button "Check on-road price" [ref=e962] [cursor=pointer]
+              - img [ref=e964] [cursor=pointer]
+            - link "All Scooters" [ref=e966] [cursor=pointer]:
+              - /url: /best-scooters-in-india/
+              - generic [ref=e967]: All Scooters
+              - img [ref=e968]
+      - generic [ref=e971]:
+        - generic [ref=e972]:
+          - generic [ref=e976]:
+            - img "Go Green, Go Electric." [ref=e979]
+            - generic [ref=e980]:
+              - heading "Go Green, Go Electric." [level=2] [ref=e981]
+              - paragraph [ref=e982]: 40+ electric bikes and scooters
+          - button "Read More" [ref=e983] [cursor=pointer]
+        - generic [ref=e985]:
+          - link "Electric Bike" [ref=e986] [cursor=pointer]:
+            - /url: /electric-bike/
+          - link "Electric Scooter" [ref=e987] [cursor=pointer]:
+            - /url: /electric-scooters/
+      - generic [ref=e989]:
+        - heading "Compare Bikes" [level=2] [ref=e991]
+        - generic [ref=e993]:
+          - generic [ref=e996]:
+            - link "Royal Enfield Hunter 350 Royal Enfield Hunter 350 ₹ 1,37,648 Onwards VS Yamaha XSR 155 Yamaha XSR 155 ₹ 1,50,957 Onwards Hunter 350 vs XSR 155" [ref=e1002] [cursor=pointer]:
+              - /url: /compare-bikes/royalenfield-hunter-350-vs-yamaha-xsr-155/
+              - generic "Royal Enfield Hunter 350 vs Yamaha XSR 155" [ref=e1003]:
+                - generic [ref=e1004]:
+                  - img "Royal Enfield Hunter 350" [ref=e1006]
+                  - generic [ref=e1007]:
+                    - generic [ref=e1008]:
+                      - generic [ref=e1009]: Royal Enfield
+                      - generic [ref=e1010]: Hunter 350
+                    - generic [ref=e1011]:
+                      - generic [ref=e1012]: ₹ 1,37,648
+                      - generic [ref=e1013]: Onwards
+                - generic [ref=e1016]: VS
+                - generic [ref=e1018]:
+                  - img "Yamaha XSR 155" [ref=e1020]
+                  - generic [ref=e1021]:
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]: Yamaha
+                      - generic [ref=e1024]: XSR 155
+                    - generic [ref=e1025]:
+                      - generic [ref=e1026]: ₹ 1,50,957
+                      - generic [ref=e1027]: Onwards
+              - button "Hunter 350 vs XSR 155" [ref=e1029]:
+                - generic [ref=e1030]: Hunter 350 vs XSR 155
+            - link "Royal Enfield Classic 350 Royal Enfield Classic 350 ₹ 1,82,667 Onwards VS Royal Enfield Bullet 350 Royal Enfield Bullet 350 ₹ 1,63,503 Onwards Classic 350 vs Bullet 350" [ref=e1036] [cursor=pointer]:
+              - /url: /compare-bikes/royalenfield-bullet-vs-royalenfield-classic-350/
+              - generic "Royal Enfield Classic 350 vs Royal Enfield Bullet 350" [ref=e1037]:
+                - generic [ref=e1038]:
+                  - img "Royal Enfield Classic 350" [ref=e1040]
+                  - generic [ref=e1041]:
+                    - generic [ref=e1042]:
+                      - generic [ref=e1043]: Royal Enfield
+                      - generic [ref=e1044]: Classic 350
+                    - generic [ref=e1045]:
+                      - generic [ref=e1046]: ₹ 1,82,667
+                      - generic [ref=e1047]: Onwards
+                - generic [ref=e1050]: VS
+                - generic [ref=e1052]:
+                  - img "Royal Enfield Bullet 350" [ref=e1054]
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]: Royal Enfield
+                      - generic [ref=e1058]: Bullet 350
+                    - generic [ref=e1059]:
+                      - generic [ref=e1060]: ₹ 1,63,503
+                      - generic [ref=e1061]: Onwards
+              - button "Classic 350 vs Bullet 350" [ref=e1063]:
+                - generic [ref=e1064]: Classic 350 vs Bullet 350
+            - link "Yamaha MT 15 V2 Yamaha MT 15 V2 ₹ 1,59,195 Onwards VS KTM 160 Duke KTM 160 Duke ₹ 1,70,812 Onwards MT 15 V2 vs 160 Duke" [ref=e1070] [cursor=pointer]:
+              - /url: /compare-bikes/ktm-160-duke-vs-yamaha-mt-15/
+              - generic "Yamaha MT 15 V2 vs KTM 160 Duke" [ref=e1071]:
+                - generic [ref=e1072]:
+                  - img "Yamaha MT 15 V2" [ref=e1074]
+                  - generic [ref=e1075]:
+                    - generic [ref=e1076]:
+                      - generic [ref=e1077]: Yamaha
+                      - generic [ref=e1078]: MT 15 V2
+                    - generic [ref=e1079]:
+                      - generic [ref=e1080]: ₹ 1,59,195
+                      - generic [ref=e1081]: Onwards
+                - generic [ref=e1084]: VS
+                - generic [ref=e1086]:
+                  - img "KTM 160 Duke" [ref=e1088]
+                  - generic [ref=e1089]:
+                    - generic [ref=e1090]:
+                      - generic [ref=e1091]: KTM
+                      - generic [ref=e1092]: 160 Duke
+                    - generic [ref=e1093]:
+                      - generic [ref=e1094]: ₹ 1,70,812
+                      - generic [ref=e1095]: Onwards
+              - button "MT 15 V2 vs 160 Duke" [ref=e1097]:
+                - generic [ref=e1098]: MT 15 V2 vs 160 Duke
+            - link "Royal Enfield Continental GT 650 Royal Enfield Continental GT 650 ₹ 3,52,686 Onwards VS Triumph Thruxton 400 Triumph Thruxton 400 ₹ 2,76,781 Onwards Continental GT 650 vs Thruxton 400" [ref=e1104] [cursor=pointer]:
+              - /url: /compare-bikes/royalenfield-continental-gt-vs-triumph-thruxton-400/
+              - generic "Royal Enfield Continental GT 650 vs Triumph Thruxton 400" [ref=e1105]:
+                - generic [ref=e1106]:
+                  - img "Royal Enfield Continental GT 650" [ref=e1108]
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]: Royal Enfield
+                      - generic [ref=e1112]: Continental GT 650
+                    - generic [ref=e1113]:
+                      - generic [ref=e1114]: ₹ 3,52,686
+                      - generic [ref=e1115]: Onwards
+                - generic [ref=e1118]: VS
+                - generic [ref=e1120]:
+                  - img "Triumph Thruxton 400" [ref=e1122]
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]:
+                      - generic [ref=e1125]: Triumph
+                      - generic [ref=e1126]: Thruxton 400
+                    - generic [ref=e1127]:
+                      - generic [ref=e1128]: ₹ 2,76,781
+                      - generic [ref=e1129]: Onwards
+              - button "Continental GT 650 vs Thruxton 400" [ref=e1131]:
+                - generic [ref=e1132]: Continental GT 650 vs Thruxton 400
+            - link "Yamaha R15 V4 Yamaha R15 V4 ₹ 1,67,085 Onwards VS Yamaha R15S Yamaha R15S ₹ 1,51,597 Onwards R15 V4 vs R15S" [ref=e1138] [cursor=pointer]:
+              - /url: /compare-bikes/yamaha-r15-vs-yamaha-r15-s/
+              - generic "Yamaha R15 V4 vs Yamaha R15S" [ref=e1139]:
+                - generic [ref=e1140]:
+                  - img "Yamaha R15 V4" [ref=e1142]
+                  - generic [ref=e1143]:
+                    - generic [ref=e1144]:
+                      - generic [ref=e1145]: Yamaha
+                      - generic [ref=e1146]: R15 V4
+                    - generic [ref=e1147]:
+                      - generic [ref=e1148]: ₹ 1,67,085
+                      - generic [ref=e1149]: Onwards
+                - generic [ref=e1152]: VS
+                - generic [ref=e1154]:
+                  - img "Yamaha R15S" [ref=e1156]
+                  - generic [ref=e1157]:
+                    - generic [ref=e1158]:
+                      - generic [ref=e1159]: Yamaha
+                      - generic [ref=e1160]: R15S
+                    - generic [ref=e1161]:
+                      - generic [ref=e1162]: ₹ 1,51,597
+                      - generic [ref=e1163]: Onwards
+              - button "R15 V4 vs R15S" [ref=e1165]:
+                - generic [ref=e1166]: R15 V4 vs R15S
+            - link "Honda SP 125 Honda SP 125 ₹ 88,750 Onwards VS Hero Glamour X 125 Hero Glamour X 125 ₹ 83,703 Onwards SP 125 vs Glamour X 125" [ref=e1172] [cursor=pointer]:
+              - /url: /compare-bikes/hero-glamour-x-125-vs-honda-sp-125/
+              - generic "Honda SP 125 vs Hero Glamour X 125" [ref=e1173]:
+                - generic [ref=e1174]:
+                  - img "Honda SP 125" [ref=e1176]
+                  - generic [ref=e1177]:
+                    - generic [ref=e1178]:
+                      - generic [ref=e1179]: Honda
+                      - generic [ref=e1180]: SP 125
+                    - generic [ref=e1181]:
+                      - generic [ref=e1182]: ₹ 88,750
+                      - generic [ref=e1183]: Onwards
+                - generic [ref=e1186]: VS
+                - generic [ref=e1188]:
+                  - img "Hero Glamour X 125" [ref=e1190]
+                  - generic [ref=e1191]:
+                    - generic [ref=e1192]:
+                      - generic [ref=e1193]: Hero
+                      - generic [ref=e1194]: Glamour X 125
+                    - generic [ref=e1195]:
+                      - generic [ref=e1196]: ₹ 83,703
+                      - generic [ref=e1197]: Onwards
+              - button "SP 125 vs Glamour X 125" [ref=e1199]:
+                - generic [ref=e1200]: SP 125 vs Glamour X 125
+            - link "Bajaj Pulsar N160 Bajaj Pulsar N160 ₹ 1,14,380 Onwards VS Bajaj Pulsar NS160 Bajaj Pulsar NS160 ₹ 1,21,799 Onwards Pulsar N160 vs Pulsar NS160" [ref=e1206] [cursor=pointer]:
+              - /url: /compare-bikes/bajaj-pulsar-n160-vs-bajaj-pulsar-ns-160/
+              - generic "Bajaj Pulsar N160 vs Bajaj Pulsar NS160" [ref=e1207]:
+                - generic [ref=e1208]:
+                  - img "Bajaj Pulsar N160" [ref=e1210]
+                  - generic [ref=e1211]:
+                    - generic [ref=e1212]:
+                      - generic [ref=e1213]: Bajaj
+                      - generic [ref=e1214]: Pulsar N160
+                    - generic [ref=e1215]:
+                      - generic [ref=e1216]: ₹ 1,14,380
+                      - generic [ref=e1217]: Onwards
+                - generic [ref=e1220]: VS
+                - generic [ref=e1222]:
+                  - img "Bajaj Pulsar NS160" [ref=e1224]
+                  - generic [ref=e1225]:
+                    - generic [ref=e1226]:
+                      - generic [ref=e1227]: Bajaj
+                      - generic [ref=e1228]: Pulsar NS160
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]: ₹ 1,21,799
+                      - generic [ref=e1231]: Onwards
+              - button "Pulsar N160 vs Pulsar NS160" [ref=e1233]:
+                - generic [ref=e1234]: Pulsar N160 vs Pulsar NS160
+            - link "Hero Xtreme 125R Hero Xtreme 125R ₹ 90,674 Onwards VS Honda CB 125 Hornet Honda CB 125 Hornet ₹ 1,14,415 Onwards Xtreme 125R vs CB 125 Hornet" [ref=e1240] [cursor=pointer]:
+              - /url: /compare-bikes/hero-xtreme-125r-vs-honda-cb-125-hornet/
+              - generic "Hero Xtreme 125R vs Honda CB 125 Hornet" [ref=e1241]:
+                - generic [ref=e1242]:
+                  - img "Hero Xtreme 125R" [ref=e1244]
+                  - generic [ref=e1245]:
+                    - generic [ref=e1246]:
+                      - generic [ref=e1247]: Hero
+                      - generic [ref=e1248]: Xtreme 125R
+                    - generic [ref=e1249]:
+                      - generic [ref=e1250]: ₹ 90,674
+                      - generic [ref=e1251]: Onwards
+                - generic [ref=e1254]: VS
+                - generic [ref=e1256]:
+                  - img "Honda CB 125 Hornet" [ref=e1258]
+                  - generic [ref=e1259]:
+                    - generic [ref=e1260]:
+                      - generic [ref=e1261]: Honda
+                      - generic [ref=e1262]: CB 125 Hornet
+                    - generic [ref=e1263]:
+                      - generic [ref=e1264]: ₹ 1,14,415
+                      - generic [ref=e1265]: Onwards
+              - button "Xtreme 125R vs CB 125 Hornet" [ref=e1267]:
+                - generic [ref=e1268]: Xtreme 125R vs CB 125 Hornet
+            - link "TVS Ronin TVS Ronin ₹ 1,25,762 Onwards VS Royal Enfield Hunter 350 Royal Enfield Hunter 350 ₹ 1,37,648 Onwards Ronin vs Hunter 350" [ref=e1274] [cursor=pointer]:
+              - /url: /compare-bikes/royalenfield-hunter-350-vs-tvs-ronin/
+              - generic "TVS Ronin vs Royal Enfield Hunter 350" [ref=e1275]:
+                - generic [ref=e1276]:
+                  - img "TVS Ronin" [ref=e1278]
+                  - generic [ref=e1279]:
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]: TVS
+                      - generic [ref=e1282]: Ronin
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]: ₹ 1,25,762
+                      - generic [ref=e1285]: Onwards
+                - generic [ref=e1288]: VS
+                - generic [ref=e1290]:
+                  - img "Royal Enfield Hunter 350" [ref=e1292]
+                  - generic [ref=e1293]:
+                    - generic [ref=e1294]:
+                      - generic [ref=e1295]: Royal Enfield
+                      - generic [ref=e1296]: Hunter 350
+                    - generic [ref=e1297]:
+                      - generic [ref=e1298]: ₹ 1,37,648
+                      - generic [ref=e1299]: Onwards
+              - button "Ronin vs Hunter 350" [ref=e1301]:
+                - generic [ref=e1302]: Ronin vs Hunter 350
+          - img [ref=e1304] [cursor=pointer]
+        - link "Compare Bikes of Your Choice" [ref=e1306] [cursor=pointer]:
+          - /url: /compare-bikes/
+          - generic [ref=e1307]: Compare Bikes of Your Choice
+          - img [ref=e1308]
+      - generic [ref=e1310]:
+        - heading "User Reviews" [level=2] [ref=e1312]
+        - generic [ref=e1313]:
+          - paragraph [ref=e1314]: 3000+ unbiased, verified reviews from bike owners. Know the pros and cons of 200+ bike models from real owners.
+          - generic [ref=e1317]:
+            - img [ref=e1319]
+            - textbox "Input field" [ref=e1320]:
+              - /placeholder: Search bike e.g. Bajaj Dominar 400
+          - separator [ref=e1321]
+        - generic [ref=e1322]:
+          - heading "Recently Added Reviews" [level=3] [ref=e1324]
+          - generic [ref=e1326]:
+            - generic [ref=e1334]:
+              - img "winner" [ref=e1338]
+              - generic [ref=e1339]:
+                - img "Write Review" [ref=e1342]
+                - text: Hareesh Reddy
+              - generic [ref=e1344]:
+                - img "Model Image" [ref=e1347]
+                - generic [ref=e1348]:
+                  - generic [ref=e1349]: Review on
+                  - generic [ref=e1350]: Yamaha R15 V4
+                  - generic [ref=e1352]:
+                    - generic [ref=e1353]:
+                      - img "rating icon"
+                    - generic [ref=e1354]:
+                      - img "rating icon"
+                    - generic [ref=e1355]:
+                      - img "rating icon"
+                    - generic [ref=e1356]:
+                      - img "rating icon"
+                    - generic [ref=e1357]:
+                      - img "rating icon"
+                  - generic [ref=e1358]: 3 weeks
+              - generic [ref=e1359]:
+                - generic [ref=e1360]:
+                  - img "start quote" [ref=e1363]
+                  - generic [ref=e1364]: After spending 40,000 km in the saddle of my Yamaha R15M, I can confidently say this isn’t just a "s
+                  - img "end quote" [ref=e1367]
+                - link "Read Full Review" [ref=e1368] [cursor=pointer]:
+                  - /url: /yamaha-bikes/r15/reviews/1102381/
+                  - generic [ref=e1369]: Read Full Review
+            - img [ref=e1371] [cursor=pointer]
+      - generic [ref=e1375]:
+        - img "Write Review" [ref=e1378]
+        - generic [ref=e1379]:
+          - generic [ref=e1380]:
+            - generic [ref=e1381]: Stand a Chance to Win
+            - generic [ref=e1382]: Write a detailed review and win
+            - generic [ref=e1383]:
+              - img "Amazon Icon" [ref=e1386]
+              - generic [ref=e1387]: voucher worth Rs. 2,000
+          - button "Participate & Win" [ref=e1389] [cursor=pointer]
+      - generic [ref=e1391]:
+        - heading "Latest Updates" [level=2] [ref=e1393]
+        - generic [ref=e1395]:
+          - list [ref=e1398]:
+            - listitem [ref=e1399]:
+              - generic [ref=e1401] [cursor=pointer]: News
+            - listitem [ref=e1403]:
+              - generic [ref=e1405] [cursor=pointer]: EXPERT REVIEWS
+            - listitem [ref=e1406]:
+              - generic [ref=e1408] [cursor=pointer]: VIDEOS
+          - generic [ref=e1412]:
+            - generic [ref=e1416]:
+              - link "Hero Leads Jan 2026 Two-Wheeler Retail; Honda Close Behind Hero Leads Jan 2026 Two-Wheeler Retail; Honda Close Behind By Abhijeet Singh 23 minutes ago FADA’s January retail numbers shows two-wheelers climbing strongly. Urban demand also picking up pace alongside rural sector. Read More" [ref=e1420] [cursor=pointer]:
+                - /url: /news/hero-leads-jan-2026-two-wheeler-retail-honda-close-behind/
+                - img "Hero Leads Jan 2026 Two-Wheeler Retail; Honda Close Behind" [ref=e1422]
+                - generic [ref=e1423]: Hero Leads Jan 2026 Two-Wheeler Retail; Honda Close Behind
+                - paragraph [ref=e1424]:
+                  - text: By
+                  - generic [ref=e1425]: Abhijeet Singh
+                  - text: 23 minutes ago
+                - generic [ref=e1426]: FADA’s January retail numbers shows two-wheelers climbing strongly. Urban demand also picking up pace alongside rural sector.
+                - generic [ref=e1427]: Read More
+              - 'link "Hero Vida Ubex Electric Bike Design Patented Hero Vida Ubex Electric Bike Design Patented By Govind Menon 17 hours ago Hero has patented the Ubex bike design in India. The Ubex was an electric motorcycle concept first showcased at EICMA 2025. The design patent revealed some interesting changes compared to the concept. Here’s everything you need to know: Read More" [ref=e1431] [cursor=pointer]':
+                - /url: /news/hero-vida-ubex-electric-bike-design-patented/
+                - img "Hero Vida Ubex Electric Bike Design Patented" [ref=e1433]
+                - generic [ref=e1434]: Hero Vida Ubex Electric Bike Design Patented
+                - paragraph [ref=e1435]:
+                  - text: By
+                  - generic [ref=e1436]: Govind Menon
+                  - text: 17 hours ago
+                - generic [ref=e1437]: "Hero has patented the Ubex bike design in India. The Ubex was an electric motorcycle concept first showcased at EICMA 2025. The design patent revealed some interesting changes compared to the concept. Here’s everything you need to know:"
+                - generic [ref=e1438]: Read More
+              - 'link "KTM AMT Gearbox Explained: How the Automated Manual System Works? KTM AMT Gearbox Explained: How the Automated Manual System Works? By Ajinkya Lad 22 hours ago The KTM AMT Gearbox comes equipped with a centrifugal clutch for low-speed usage. It also allows manual gearshifts via handlebar-mounted paddles Read More" [ref=e1442] [cursor=pointer]':
+                - /url: /news/ktm-amt-gearbox-explained-how-the-automated-manual-system-works/
+                - 'img "KTM AMT Gearbox Explained: How the Automated Manual System Works?" [ref=e1444]'
+                - generic [ref=e1445]: "KTM AMT Gearbox Explained: How the Automated Manual System Works?"
+                - paragraph [ref=e1446]:
+                  - text: By
+                  - generic [ref=e1447]: Ajinkya Lad
+                  - text: 22 hours ago
+                - generic [ref=e1448]: The KTM AMT Gearbox comes equipped with a centrifugal clutch for low-speed usage. It also allows manual gearshifts via handlebar-mounted paddles
+                - generic [ref=e1449]: Read More
+            - link "All News" [ref=e1451] [cursor=pointer]:
+              - /url: /news
+              - generic [ref=e1452]: All News
+              - img [ref=e1453]
+  - navigation [ref=e1458]:
+    - generic [ref=e1459]: EXPLORE BIKES
+    - list [ref=e1460]:
+      - listitem [ref=e1461]:
+        - link "Home" [ref=e1464] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e1466]:
+            - img [ref=e1467]
+            - generic [ref=e1468]: Home
+      - listitem [ref=e1469]:
+        - generic [ref=e1470] [cursor=pointer]:
+          - generic "New Bikes" [ref=e1472]:
+            - generic [ref=e1474]:
+              - img [ref=e1475]
+              - generic [ref=e1476]: New Bikes
+          - img [ref=e1478]
+        - list [ref=e1480]:
+          - listitem [ref=e1481]:
+            - link [ref=e1482] [cursor=pointer]:
+              - /url: /new-bikes-in-india/
+              - generic [ref=e1485]: Find New Bikes
+          - listitem [ref=e1486]:
+            - link [ref=e1487] [cursor=pointer]:
+              - /url: /pricequote/
+              - generic [ref=e1490]: Check On-Road Price
+          - listitem [ref=e1491]:
+            - link [ref=e1492] [cursor=pointer]:
+              - /url: /dealer-showrooms/
+              - generic [ref=e1495]: Locate Showrooms
+          - listitem [ref=e1496]:
+            - link [ref=e1497] [cursor=pointer]:
+              - /url: /upcoming-bikes/
+              - generic [ref=e1500]: Upcoming Bikes
+          - listitem [ref=e1501]:
+            - link [ref=e1502] [cursor=pointer]:
+              - /url: /new-bike-launches/
+              - generic [ref=e1505]: New Launches
+      - listitem [ref=e1506]:
+        - generic [ref=e1507] [cursor=pointer]:
+          - generic "New Scooters" [ref=e1509]:
+            - generic [ref=e1511]:
+              - img [ref=e1512]
+              - generic [ref=e1513]: New Scooters
+          - img [ref=e1515]
+        - list [ref=e1517]:
+          - listitem [ref=e1518]:
+            - link [ref=e1519] [cursor=pointer]:
+              - /url: /best-scooters-in-india/
+              - generic [ref=e1522]: Find New Scooters
+          - listitem [ref=e1523]:
+            - link [ref=e1524] [cursor=pointer]:
+              - /url: /electric-scooters/
+              - generic [ref=e1527]: Electric Scooters
+          - listitem [ref=e1528]:
+            - link [ref=e1529] [cursor=pointer]:
+              - /url: /upcoming-scooters/
+              - generic [ref=e1532]: Upcoming Scooters
+      - listitem [ref=e1533]:
+        - link "Electric Bikes" [ref=e1536] [cursor=pointer]:
+          - /url: /electric-bike/
+          - generic [ref=e1538]:
+            - img [ref=e1539]
+            - generic [ref=e1540]: Electric Bikes
+      - listitem [ref=e1541]:
+        - generic [ref=e1542] [cursor=pointer]:
+          - generic "Used Bikes" [ref=e1544]:
+            - generic [ref=e1546]:
+              - img [ref=e1547]
+              - generic [ref=e1548]: Used Bikes
+          - img [ref=e1550]
+        - list [ref=e1552]:
+          - listitem [ref=e1553]:
+            - link [ref=e1554] [cursor=pointer]:
+              - /url: /used/
+              - generic [ref=e1557]: Buy Bikes
+          - listitem [ref=e1558]:
+            - link [ref=e1559] [cursor=pointer]:
+              - /url: /used/sell/
+              - generic [ref=e1562]: Sell Bikes
+          - listitem [ref=e1563]:
+            - link [ref=e1564] [cursor=pointer]:
+              - /url: /mybikewale/myinquiries/
+              - generic [ref=e1567]: View My Listings
+    - generic [ref=e1568]: TOOLS & RESOURCES
+    - list [ref=e1569]:
+      - listitem [ref=e1570]:
+        - link "Compare Bikes" [ref=e1573] [cursor=pointer]:
+          - /url: /compare-bikes/
+          - generic [ref=e1575]:
+            - img [ref=e1576]
+            - generic [ref=e1577]: Compare Bikes
+      - listitem [ref=e1578]:
+        - link "Bike Loan" [ref=e1581] [cursor=pointer]:
+          - /url: /bike-loan/
+          - generic [ref=e1583]:
+            - img [ref=e1584]
+            - generic [ref=e1585]: Bike Loan
+      - listitem [ref=e1586]:
+        - link "EMI Calculator" [ref=e1589] [cursor=pointer]:
+          - /url: /bike-loan-emi-calculator/
+          - generic [ref=e1591]:
+            - img [ref=e1592]
+            - generic [ref=e1593]: EMI Calculator
+      - listitem [ref=e1594]:
+        - generic [ref=e1595] [cursor=pointer]:
+          - generic "News and Reviews" [ref=e1597]:
+            - generic [ref=e1599]:
+              - img [ref=e1600]
+              - generic [ref=e1601]: News and Reviews
+          - img [ref=e1603]
+        - list [ref=e1605]:
+          - listitem [ref=e1606]:
+            - link [ref=e1607] [cursor=pointer]:
+              - /url: /news/
+              - generic [ref=e1610]: News
+          - listitem [ref=e1611]:
+            - link [ref=e1612] [cursor=pointer]:
+              - /url: /expert-reviews/
+              - generic [ref=e1615]: Expert Reviews
+          - listitem [ref=e1616]:
+            - link [ref=e1617] [cursor=pointer]:
+              - /url: /reviews/
+              - generic [ref=e1620]: Reviews
+    - generic [ref=e1621]: PROFILE & PREFERENCES
+    - list [ref=e1622]:
+      - listitem [ref=e1623]:
+        - generic "Dark Mode" [ref=e1626] [cursor=pointer]:
+          - generic [ref=e1627]:
+            - generic [ref=e1628]:
+              - img [ref=e1629]
+              - generic [ref=e1630]: Dark Mode
+            - switch [ref=e1632]
+      - listitem [ref=e1635]:
+        - generic "Choose Language / भाषा चुनें" [ref=e1638] [cursor=pointer]:
+          - generic [ref=e1640]:
+            - img [ref=e1641]
+            - generic [ref=e1642]: Choose Language / भाषा चुनें
+      - listitem [ref=e1643]:
+        - generic "Feedback" [ref=e1646] [cursor=pointer]:
+          - generic [ref=e1648]:
+            - img [ref=e1649]
+            - generic [ref=e1650]: Feedback
+      - listitem [ref=e1651]:
+        - generic "Login" [ref=e1654] [cursor=pointer]:
+          - generic [ref=e1656]:
+            - img [ref=e1657]
+            - generic [ref=e1658]: Login
+    - generic [ref=e1661]:
+      - paragraph [ref=e1662]: Download Mobile App
+      - list [ref=e1663]:
+        - listitem [ref=e1664]:
+          - link "BikeWale Android App" [ref=e1665] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/app/bikewale-buy-new-bike-scooty/id1492806145?ls=1
+        - listitem [ref=e1666]:
+          - link "BikeWale Android App" [ref=e1667] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.bikewale.app&referrer=utm_source%3DBikeWaleMsite%26utm_medium%3DMenuDrawer%26utm_campaign=BikeWale%2520MobilesiteMenuDrawer
+```
